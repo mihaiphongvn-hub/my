@@ -2,9 +2,7 @@ name: Auto Fetch and Sort M3U
 
 on:
   schedule:
-    # Cấu hình tự động chạy mỗi 6 tiếng (theo giờ UTC)
     - cron: '0 */6 * * *' 
-  # Cho phép bạn có thể bấm nút "Run workflow" chạy bằng tay bất cứ lúc nào
   workflow_dispatch: 
 
 jobs:
@@ -29,6 +27,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add playlist.m3u
-          # Kiểm tra nếu file có thay đổi thì mới commit
+          git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: Kéo link mới và sắp xếp VTV, Địa Phương" && git push)
