@@ -40,15 +40,25 @@ def download_and_sort_playlist():
     if current_block:
         channels.append(current_block)
 
-    # Đặt mức độ ưu tiên
+    # Đặt mức độ ưu tiên theo đúng yêu cầu
     def get_priority(block):
         extinf = block[0].upper()
         if 'GROUP-TITLE="VTV"' in extinf:
-            return 0 # Ưu tiên cao nhất
+            return 0
         elif 'GROUP-TITLE="ĐỊA PHƯƠNG"' in extinf:
-            return 1 # Ưu tiên thứ 2
+            return 1
+        elif 'GROUP-TITLE="HTV"' in extinf:
+            return 2
+        elif 'GROUP-TITLE="VTVCAB"' in extinf:
+            return 3
+        elif 'GROUP-TITLE="SCTV"' in extinf:
+            return 4
+        elif 'GROUP-TITLE="QUỐC TẾ"' in extinf:
+            return 5
+        elif 'GROUP-TITLE="IN THE BOX"' in extinf:
+            return 6
         else:
-            return 2 # Các kênh còn lại
+            return 7 # Tất cả các nhóm kênh còn lại sẽ xếp dưới cùng
 
     # Sắp xếp
     channels.sort(key=get_priority)
@@ -59,7 +69,7 @@ def download_and_sort_playlist():
         for block in channels:
             f.writelines(block)
 
-    print("Đã tải, sắp xếp (VTV & Địa Phương lên đầu) và lưu thành công!")
+    print("Đã tải, sắp xếp và lưu thành công!")
 
 if __name__ == '__main__':
     download_and_sort_playlist()
