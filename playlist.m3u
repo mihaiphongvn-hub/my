@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://vnepg.site/epg.xml.gz"
-#UPDATE 09:49⏱08/06 | VietAnhTV
+#UPDATE 11:12⏱08/06 | VietAnhTV
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv1.png" , VTV1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -763,9 +763,9 @@ https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 https://livevlisctcdnw.seenow.vn/mean/WO/manifest.mpd
 
 
-#EXTINF:-1 tvg-id="update" group-title="UPDATE 09:49⏱08/06" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 09:49⏱08/06
+#EXTINF:-1 tvg-id="update" group-title="UPDATE 11:12⏱08/06" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 11:12⏱08/06
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vietanh18h1.duckdns.org/tiktok_video_2.mp4
+https://vpsttt.vietanhtv.top/tiktok_video_2.mp4
 #EXTINF:-1 tvg-id="tv360plus1" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus1.png", TV360+1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -2438,17 +2438,17 @@ https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8
 https://alive.yarncdn.live/tdtv_blv_taokinhte/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/330px-Flag_of_Lebanon.svg.png" group-title="Hội Quán TV",[14:00 08/06] Lebanon vs Kazakhstan - BLV TÁO KINH TẾ  (SD)
 https://alive.yarncdn.live/tdtv_blv_taokinhte/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV PHAN TỪ (FHD)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV TÁO KINH TẾ  (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taokinhte/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV TÁO KINH TẾ  (HD)
+https://alive.yarncdn.live/tdtv_blv_taokinhte/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV TÁO KINH TẾ  (SD)
+https://alive.yarncdn.live/tdtv_blv_taokinhte/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[14:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (FHD)
 https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV PHAN TỪ (HD)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[14:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (HD)
 https://alive.yarncdn.live/hqtv_blv_phantu/tracks-v2a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1r0k1Lgj9INFJXffXF2kk8So8HKDYQMeJfw&s" group-title="Hội Quán TV",[20:00 08/06] Đài Loan vs Úc  - BLV PHAN TỪ (SD)
-https://alive.yarncdn.live/hqtv_blv_phantu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[20:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (FHD)
-https://hqlive.yarncdn.live/live/hqtv_blv_phantu/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[20:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (HD)
-https://alive.yarncdn.live/hqtv_blv_phantu/tracks-v2a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[20:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (SD)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/330px-Flag_of_the_Philippines.svg.png" group-title="Hội Quán TV",[14:00 08/06] Philippines vs Kyrgyzstan - BLV PHAN TỪ (SD)
 https://alive.yarncdn.live/hqtv_blv_phantu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Kazakhstan.svg" group-title="Hội Quán TV",[11:00 09/06] Kazakhstan vs Iran  - BLV PHAN CA (FHD)
 https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8
