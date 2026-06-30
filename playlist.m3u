@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#UPDATE 11:12⏱30/06 | VietAnhTV
+#UPDATE 16:54⏱30/06 | VietAnhTV
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv1.png" , VTV1 HD
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -705,7 +705,7 @@ https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2942ed303e0d40c9b99c94c587bbf509:96cda24109734fb7920d799d58d1a9ae
 https://livevlisctcdnw.seenow.vn/mean/WO/manifest.mpd
-#EXTINF:-1 tvg-id="update" group-title="UPDATE 11:12⏱30/06" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 11:12⏱30/06
+#EXTINF:-1 tvg-id="update" group-title="UPDATE 16:54⏱30/06" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 16:54⏱30/06
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vpsttt.vietanhtv.top/1.mp4
 #EXTINF:-1 tvg-id="VTV2" group-title="Dự phòng",VTV2
@@ -1584,11 +1584,6 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=536185
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=534055
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 06:00-01/07: Botafogo SP - CRB AL (BRA D2) - HÀ DUY KIÊN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=607400
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 06:00-01/07: Botafogo SP - CRB AL (BRA D2) - A PÁO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1604,6 +1599,11 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=485739
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=321443
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 06:00-01/07: Botafogo SP - CRB AL (BRA D2) - QUÂN JK
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=611178
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 06:00-01/07: New York Liberty W - Las Vegas Aces W (WNBA) - A CHÈ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1634,11 +1634,6 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=168964
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=122591
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 07:30-01/07: Univ Catolica - Everton CD (CHI Cup) - XUÂN SON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=501412
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 07:30-01/07: Univ Catolica - Everton CD (CHI Cup) - BLV ENZO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1654,6 +1649,11 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=372746
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=557845
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 07:30-01/07: Univ Catolica - Everton CD (CHI Cup) - BLV KEM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=513394
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 08:00-01/07: Mexico - Ecuador (WORLD CUP) - BLV TOMMY
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1809,11 +1809,6 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=283501
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=617313
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 17:00-01/07: Newcastle Olympic - Charleston City Blues (AUS NNSW) - BLV KEM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=513394
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 17:00-01/07: Newcastle Olympic - Charleston City Blues (AUS NNSW) - HẢI THANH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1834,6 +1829,11 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=109053
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=603914
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 17:00-01/07: Newcastle Olympic - Charleston City Blues (AUS NNSW) - XUÂN SON
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=501412
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 17:00-01/07: Seoul Amazones Women - Suwon FC Women (KOR WD1) - NGƯỜI CÁ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1934,16 +1934,16 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=132343
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=595335
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 19:00-01/07: BFF Academy U19 - RTC FC (BTN PL) - QUÂN JK
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=611178
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 19:00-01/07: BFF Academy U19 - RTC FC (BTN PL) - BLV BÉO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=459401
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 19:00-01/07: BFF Academy U19 - RTC FC (BTN PL) - HÀ DUY KIÊN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=607400
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 19:00-01/07: Marikina Shoemasters - Valenzuela City Darkhorse (MPBL) - CHAN SENA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -2008,22 +2008,18 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=612098
 #EXTM3U
 # Error: Không lấy được dữ liệu từ API
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[15:00 30/06] FC Ulaanbaatar vs Central Stallions - BLV BLV Cozy (L1) Giải :Giải ngoại hạng Mông Cổ
-https://live05.paznhl.app/live/87379114.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[15:00 30/06] FC Ulaanbaatar vs Central Stallions - BLV BLV Cozy (L2) Giải :Giải ngoại hạng Mông Cổ
-https://live05.paznhl.app/live/87379114.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Hà Nội 2 Nữ vs Tp. Hồ Chí Minh 2 Nữ - BLV BLV POCARI (L1) Giải :Women's National League
-https://live05.paznhl.app/live/19919577.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Hà Nội 2 Nữ vs Tp. Hồ Chí Minh 2 Nữ - BLV BLV POCARI (L2) Giải :Women's National League
-https://live05.paznhl.app/live/19919577.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Phong Phú Hà Nam Nữ vs TKS Việt Nam Nữ - BLV BLV BÍ ĐAO (L1) Giải :Women's National League
-https://live05.paznhl.app/live/99121525.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Phong Phú Hà Nam Nữ vs TKS Việt Nam Nữ - BLV BLV BÍ ĐAO (L2) Giải :Women's National League
-https://live05.paznhl.app/live/99121525.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/2c764cfc9ae1beacd2dcb28cb831755a.png!w80" group-title="ColaTV",[16:30 30/06] Juventus Brunswick vs Heidelberg United - BLV BLV ROCKSTAR (L1) Giải :Cúp bóng đá của Hiệp hội Bóng đá Úc
 https://live05.paznhl.app/live/82054853.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/2c764cfc9ae1beacd2dcb28cb831755a.png!w80" group-title="ColaTV",[16:30 30/06] Juventus Brunswick vs Heidelberg United - BLV BLV ROCKSTAR (L2) Giải :Cúp bóng đá của Hiệp hội Bóng đá Úc
 https://live05.paznhl.app/live/82054853.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Phong Phú Hà Nam Nữ vs TKS Việt Nam Nữ - BLV BLV BÍ ĐAO (L1) Giải :Women's National League
+https://live05.paznhl.app/live/99121525.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Phong Phú Hà Nam Nữ vs TKS Việt Nam Nữ - BLV BLV BÍ ĐAO (L2) Giải :Women's National League
+https://live05.paznhl.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Hà Nội 2 Nữ vs Tp. Hồ Chí Minh 2 Nữ - BLV BLV POCARI (L1) Giải :Women's National League
+https://live05.paznhl.app/live/19919577.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 30/06] Hà Nội 2 Nữ vs Tp. Hồ Chí Minh 2 Nữ - BLV BLV POCARI (L2) Giải :Women's National League
+https://live05.paznhl.app/live/19919577.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/21df239119fe6638a523365947a2cfb2.png!w80" group-title="ColaTV",[17:00 30/06] SD Raiders FC vs Sydney Youth - BLV BLV 247 (L1) Giải :Giải bóng đá Hạng nhất New South Wales của Úc
 https://live05.paznhl.app/live/90865415.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/21df239119fe6638a523365947a2cfb2.png!w80" group-title="ColaTV",[17:00 30/06] SD Raiders FC vs Sydney Youth - BLV BLV 247 (L2) Giải :Giải bóng đá Hạng nhất New South Wales của Úc
@@ -2116,14 +2112,22 @@ https://live05.paznhl.app/live/19919577.m3u8
 https://live05.paznhl.app/live/59444581.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[15:00 01/07] Khovd Western vs Ulaangom City FC - BLV BLV PEPSI (L2) Giải :Giải ngoại hạng Mông Cổ
 https://live05.paznhl.app/live/59444581.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/3110d1717fed14a7b4367e0b9171f334.png!w80" group-title="ColaTV",[17:00 01/07] Newcastle Olympic vs Charlestown Azzurri - BLV BLV SAMURAI (L1) Giải :Giải Ngoại hạng Quốc gia kv Bắc NSW
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/3110d1717fed14a7b4367e0b9171f334.png!w80" group-title="ColaTV",[16:30 01/07] Newcastle Olympic vs Charlestown Azzurri - BLV BLV SAMURAI (L1) Giải :Giải Ngoại hạng Quốc gia kv Bắc NSW
 https://live05.paznhl.app/live/07808742.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/3110d1717fed14a7b4367e0b9171f334.png!w80" group-title="ColaTV",[17:00 01/07] Newcastle Olympic vs Charlestown Azzurri - BLV BLV SAMURAI (L2) Giải :Giải Ngoại hạng Quốc gia kv Bắc NSW
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/3110d1717fed14a7b4367e0b9171f334.png!w80" group-title="ColaTV",[16:30 01/07] Newcastle Olympic vs Charlestown Azzurri - BLV BLV SAMURAI (L2) Giải :Giải Ngoại hạng Quốc gia kv Bắc NSW
 https://live05.paznhl.app/live/07808742.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[16:30 01/07] Monaro Panthers vs Thành Phố Queanbeyan - BLV BLV MOUNTAIN DEW (L1) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
+https://live05.paznhl.app/live/87547578.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[16:30 01/07] Monaro Panthers vs Thành Phố Queanbeyan - BLV BLV MOUNTAIN DEW (L2) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
+https://live05.paznhl.app/live/87547578.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[18:00 01/07] Khovd vs Khoromkhon - BLV BLV FANTA (L1) Giải :Giải ngoại hạng Mông Cổ
 https://live05.paznhl.app/live/16226575.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[18:00 01/07] Khovd vs Khoromkhon - BLV BLV FANTA (L2) Giải :Giải ngoại hạng Mông Cổ
 https://live05.paznhl.app/live/16226575.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/785cc536013fe705d519fb0ff095b6c1.png!w80" group-title="ColaTV",[19:00 01/07] BFF Academy U19 vs RTC FC - BLV BLV SPRITE (L1) Giải :Giải bóng đá hàng đầu Bhutan
+https://live05.paznhl.app/live/75748097.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/785cc536013fe705d519fb0ff095b6c1.png!w80" group-title="ColaTV",[19:00 01/07] BFF Academy U19 vs RTC FC - BLV BLV SPRITE (L2) Giải :Giải bóng đá hàng đầu Bhutan
+https://live05.paznhl.app/live/75748097.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/71ec56470b1f954a153d98413368256e.png!w80" group-title="ColaTV",[22:00 01/07] Tukums-2000 vs Super Nova - BLV BLV STING (L1) Giải :Giải bóng đá Cao cấp Latvia
 https://live05.paznhl.app/live/14707124.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/71ec56470b1f954a153d98413368256e.png!w80" group-title="ColaTV",[22:00 01/07] Tukums-2000 vs Super Nova - BLV BLV STING (L2) Giải :Giải bóng đá Cao cấp Latvia
@@ -2152,18 +2156,110 @@ https://live05.paznhl.app/live/82054853.m3u8
 https://live05.paznhl.app/live/14707124.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/727e803cf129f5079d5b54a97c86740e.png!w80" group-title="ColaTV",[01:30 02/07] CD Obrero vs Deportivo Nepytyvo - BLV BLV STING (L2) Giải :Cúp Paraguay
 https://live05.paznhl.app/live/14707124.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV COCA (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/24561735.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV COCA (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/24561735.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV C2 (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/08552895.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV C2 (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/08552895.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV SPRITE (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/75748097.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV SPRITE (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/75748097.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV 247 (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/90865415.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 02/07] Bỉ vs Senegal - BLV BLV 247 (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/90865415.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/0e046e806bd54b6ea05db95101f07401.png!w80" group-title="ColaTV",[05:00 02/07] LDU Quito vs CLB Orense - BLV BLV STING (L1) Giải :Giải vô địch quốc gia Ecuador
 https://live05.paznhl.app/live/14707124.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/0e046e806bd54b6ea05db95101f07401.png!w80" group-title="ColaTV",[05:00 02/07] LDU Quito vs CLB Orense - BLV BLV STING (L2) Giải :Giải vô địch quốc gia Ecuador
 https://live05.paznhl.app/live/14707124.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] thể thao vs Coquimbo Unido - BLV BLV SAMURAI (L1) Giải :Cúp Chile
+https://live05.paznhl.app/live/07808742.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] thể thao vs Coquimbo Unido - BLV BLV SAMURAI (L2) Giải :Cúp Chile
+https://live05.paznhl.app/live/07808742.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] Cobresal vs La Serena - BLV BLV BÍ ĐAO (L1) Giải :Cúp Chile
+https://live05.paznhl.app/live/99121525.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] Cobresal vs La Serena - BLV BLV BÍ ĐAO (L2) Giải :Cúp Chile
+https://live05.paznhl.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] U. De Concepcion vs Nublense - BLV BLV MOUNTAIN DEW (L1) Giải :Cúp Chile
+https://live05.paznhl.app/live/87547578.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[05:00 02/07] U. De Concepcion vs Nublense - BLV BLV MOUNTAIN DEW (L2) Giải :Cúp Chile
+https://live05.paznhl.app/live/87547578.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV COCA (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/24561735.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV COCA (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/24561735.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV C2 (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/08552895.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV C2 (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/08552895.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV GIÀ LÀNG (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/14830711.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV GIÀ LÀNG (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/14830711.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV FANTA (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/16226575.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 02/07] Mỹ vs ĐTQG Bosnia Herzegovina - BLV BLV FANTA (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.paznhl.app/live/16226575.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[07:30 02/07] U. De Chile vs Union La Calera - BLV BLV SODA (L1) Giải :Cúp Chile
+https://live05.paznhl.app/live/02456966.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/d63f2665f489d5a1c0a059feb0b0d0e4.png!w80" group-title="ColaTV",[07:30 02/07] U. De Chile vs Union La Calera - BLV BLV SODA (L2) Giải :Cúp Chile
+https://live05.paznhl.app/live/02456966.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/6ba16cfbda31aed288c6d50e4b11d710.png!w80" group-title="ColaTV",[14:00 02/07] Bay Hawks vs Taranaki Mountainairs - BLV BLV 247 (L1) Giải :Giải Quốc Gia Bóng Rổ New Zealand
+https://live05.paznhl.app/live/90865415.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/6ba16cfbda31aed288c6d50e4b11d710.png!w80" group-title="ColaTV",[14:00 02/07] Bay Hawks vs Taranaki Mountainairs - BLV BLV 247 (L2) Giải :Giải Quốc Gia Bóng Rổ New Zealand
+https://live05.paznhl.app/live/90865415.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/785cc536013fe705d519fb0ff095b6c1.png!w80" group-title="ColaTV",[19:00 02/07] Transport United vs Drukpa FC - BLV BLV POCARI (L1) Giải :Giải bóng đá hàng đầu Bhutan
+https://live05.paznhl.app/live/19919577.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/785cc536013fe705d519fb0ff095b6c1.png!w80" group-title="ColaTV",[19:00 02/07] Transport United vs Drukpa FC - BLV BLV POCARI (L2) Giải :Giải bóng đá hàng đầu Bhutan
+https://live05.paznhl.app/live/19919577.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[19:00 02/07] Akademiya Ontustik vs Shakhtar Karagandy - BLV BLV ROCKSTAR (L1) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/82054853.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[19:00 02/07] Akademiya Ontustik vs Shakhtar Karagandy - BLV BLV ROCKSTAR (L2) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/82054853.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/e02bafe2eecacc9e23c435c0160efa51.png!w80" group-title="ColaTV",[19:30 02/07] Jwayya vs CLB Shabab Sahel - BLV BLV SPRITE (L1) Giải :Giải Bóng đá Ngoại hạng Lebanon
+https://live05.paznhl.app/live/75748097.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/e02bafe2eecacc9e23c435c0160efa51.png!w80" group-title="ColaTV",[19:30 02/07] Jwayya vs CLB Shabab Sahel - BLV BLV SPRITE (L2) Giải :Giải Bóng đá Ngoại hạng Lebanon
+https://live05.paznhl.app/live/75748097.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[20:00 02/07] Tobol Kostanai B vs FK Aktobe II - BLV BLV STING (L1) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/14707124.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[20:00 02/07] Tobol Kostanai B vs FK Aktobe II - BLV BLV STING (L2) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/14707124.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[20:00 02/07] Astana B vs FK Kaspiy Aktau B - BLV BLV PEPSI (L1) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/59444581.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[20:00 02/07] Astana B vs FK Kaspiy Aktau B - BLV BLV PEPSI (L2) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/59444581.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/a6a98d7ce26efc8afe56aa744eebcefd.png!w80" group-title="ColaTV",[20:00 02/07] Croatia U19 vs Ý U19 - BLV BLV Cozy (L1) Giải :Euro U19
+https://live05.paznhl.app/live/87379114.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/a6a98d7ce26efc8afe56aa744eebcefd.png!w80" group-title="ColaTV",[20:00 02/07] Croatia U19 vs Ý U19 - BLV BLV Cozy (L2) Giải :Euro U19
+https://live05.paznhl.app/live/87379114.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[21:00 02/07] Khan Tengri FC vs Ekibastuz - BLV BLV GIÀ LÀNG (L1) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/14830711.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/29d9b5a07b9ef4c89588e271a263027d.png!w80" group-title="ColaTV",[21:00 02/07] Khan Tengri FC vs Ekibastuz - BLV BLV GIÀ LÀNG (L2) Giải :Giải hạng nhất quốc gia Kazakhstan
+https://live05.paznhl.app/live/14830711.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/e7475cfacb0bebd6ab81ae3f09efdb28.png!w80" group-title="ColaTV",[22:00 02/07] CLB BATE vs FC Gomel - BLV BLV FANTA (L1) Giải :Giải Bóng đá Ngoại hạng Belarus
+https://live05.paznhl.app/live/16226575.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/e7475cfacb0bebd6ab81ae3f09efdb28.png!w80" group-title="ColaTV",[22:00 02/07] CLB BATE vs FC Gomel - BLV BLV FANTA (L2) Giải :Giải Bóng đá Ngoại hạng Belarus
+https://live05.paznhl.app/live/16226575.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/76cf7670d30a48ad1437315a8c50acdb.png!w80" group-title="ColaTV",[23:00 02/07] Tia chớp Oslo vs Asane Fotball - BLV BLV ROCKSTAR (L1) Giải :Giải hạng nhất quốc gia Na Uy
+https://live05.paznhl.app/live/82054853.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/76cf7670d30a48ad1437315a8c50acdb.png!w80" group-title="ColaTV",[23:00 02/07] Tia chớp Oslo vs Asane Fotball - BLV BLV ROCKSTAR (L2) Giải :Giải hạng nhất quốc gia Na Uy
+https://live05.paznhl.app/live/82054853.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/727e803cf129f5079d5b54a97c86740e.png!w80" group-title="ColaTV",[01:30 03/07] 1º de Marzo FDM vs thể thao thuộc địa - BLV BLV STING (L1) Giải :Cúp Paraguay
+https://live05.paznhl.app/live/14707124.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/727e803cf129f5079d5b54a97c86740e.png!w80" group-title="ColaTV",[01:30 03/07] 1º de Marzo FDM vs thể thao thuộc địa - BLV BLV STING (L2) Giải :Cúp Paraguay
+https://live05.paznhl.app/live/14707124.m3u8
 
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV PHAN CA (FHD)
-https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV PHAN CA (HD)
-https://alive.zlylive.com/hqtv_blv_phanca/tracks-v2a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV PHAN CA (SD)
-https://alive.zlylive.com/hqtv_blv_phanca/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV TÁO GIÀ (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV TÁO GIÀ (HD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/11180.png" group-title="Hội Quán TV",[17:30 30/06] Logan Lightning vs Redlands United - BLV TÁO GIÀ (SD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/650.png" group-title="Hội Quán TV",[22:00 30/06] VPS vs Inter Turku - BLV TÁO GIÀ (FHD)
 https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/650.png" group-title="Hội Quán TV",[22:00 30/06] VPS vs Inter Turku - BLV TÁO GIÀ (HD)
@@ -2176,4 +2272,94 @@ https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8
 https://alive.zlylive.com/hqtv_blv_phanca/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/661.png" group-title="Hội Quán TV",[23:00 30/06] FK Liepaja vs Ogre United - BLV PHAN CA (SD)
 https://alive.zlylive.com/hqtv_blv_phanca/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV LƯƠNG BỔNG (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV LƯƠNG BỔNG (HD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV LƯƠNG BỔNG (SD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV PHAN QUẨY (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV PHAN QUẨY (HD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/1280px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png" group-title="Hội Quán TV",[00:00 01/07] Ivory Coast vs  Norway - BLV PHAN QUẨY (SD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV LƯƠNG BỔNG (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV LƯƠNG BỔNG (HD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV LƯƠNG BỔNG (SD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV PHAN QUẨY (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV PHAN QUẨY (HD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV PHAN QUẨY (SD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV THẦN THÔNG (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV THẦN THÔNG (HD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2.png" group-title="Hội Quán TV",[04:00 01/07] France vs Sweden - BLV THẦN THÔNG (SD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV THẦN THÔNG (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV THẦN THÔNG (HD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV THẦN THÔNG (SD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV LƯƠNG BỔNG (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV LƯƠNG BỔNG (HD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" group-title="Hội Quán TV",[08:00 01/07] Mexico vs Ecuador - BLV LƯƠNG BỔNG (SD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV PHAN QUẨY (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanquay/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV PHAN QUẨY (HD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV PHAN QUẨY (SD)
+https://alive.yarncdn.live/hqtv_blv_phanquay/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV THẦN THÔNG (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taovannghe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV THẦN THÔNG (HD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV THẦN THÔNG (SD)
+https://alive.yarncdn.live/tdtv_blv_taovannghe/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV LƯƠNG BỔNG (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanliem/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV LƯƠNG BỔNG (HD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10.png" group-title="Hội Quán TV",[23:00 01/07] England vs Congo DR - BLV LƯƠNG BỔNG (SD)
+https://alive.yarncdn.live/hqtv_blv_phanliem/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2618.png" group-title="Hội Quán TV",[06:00 01/07] Botafogo SP vs CRB - BLV PHAN CA (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2618.png" group-title="Hội Quán TV",[06:00 01/07] Botafogo SP vs CRB - BLV PHAN CA (HD)
+https://alive.zlylive.com/hqtv_blv_phanca/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2618.png" group-title="Hội Quán TV",[06:00 01/07] Botafogo SP vs CRB - BLV PHAN CA (SD)
+https://alive.zlylive.com/hqtv_blv_phanca/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2994.png" group-title="Hội Quán TV",[07:30 01/07] U. Catolica vs Everton de Vina - BLV PHAN ANH (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phananh/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2994.png" group-title="Hội Quán TV",[07:30 01/07] U. Catolica vs Everton de Vina - BLV PHAN ANH (HD)
+https://alive.yarncdn.live/hqtv_blv_phananh/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2994.png" group-title="Hội Quán TV",[07:30 01/07] U. Catolica vs Everton de Vina - BLV PHAN ANH (SD)
+https://alive.yarncdn.live/hqtv_blv_phananh/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10205.png" group-title="Hội Quán TV",[17:00 01/07] Hamilton Olympic vs Charlestown City Blues - BLV TÁO GIÀ (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10205.png" group-title="Hội Quán TV",[17:00 01/07] Hamilton Olympic vs Charlestown City Blues - BLV TÁO GIÀ (HD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/10205.png" group-title="Hội Quán TV",[17:00 01/07] Hamilton Olympic vs Charlestown City Blues - BLV TÁO GIÀ (SD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/4144.png" group-title="Hội Quán TV",[22:00 01/07] Tukums vs Super Nova - BLV PHAN CA (FHD)
+https://hqlive.yarncdn.live/live/hqtv_blv_phanca/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/4144.png" group-title="Hội Quán TV",[22:00 01/07] Tukums vs Super Nova - BLV PHAN CA (HD)
+https://alive.zlylive.com/hqtv_blv_phanca/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/4144.png" group-title="Hội Quán TV",[22:00 01/07] Tukums vs Super Nova - BLV PHAN CA (SD)
+https://alive.zlylive.com/hqtv_blv_phanca/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png" group-title="Hội Quán TV",[23:00 01/07] HJK Helsinki vs Ilves - BLV TÁO GIÀ (FHD)
+https://tdlive.yarncdn.live/live/tdtv_blv_taotinhtao/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png" group-title="Hội Quán TV",[23:00 01/07] HJK Helsinki vs Ilves - BLV TÁO GIÀ (HD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v2a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/e/ec/HJK_Helsinki_Logo.png" group-title="Hội Quán TV",[23:00 01/07] HJK Helsinki vs Ilves - BLV TÁO GIÀ (SD)
+https://alive.yarncdn.live/tdtv_blv_taotinhtao/tracks-v1a1/mono.m3u8
 
