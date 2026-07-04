@@ -1,31 +1,53 @@
 #EXTM3U url-tvg="https://vnepg.site/epg.xml"
-#UPDATE 10:47⏱04/07 | VietAnhTV
+#UPDATE 12:56⏱04/07 | VietAnhTV
 
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
-https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_400000=10004-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2
-https://live.fptplay53.net/live/media/v2abr/live247-hls-avc/v2abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3
-https://live.fptplay53.net/live/media/v3abr/live247-hls-avc/v3abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4 
-https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
-https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_400000=10004-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/mIUWkDx.png",VTV5 Tây Nam Bộ
-https://vips-livecdn.fptplay.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb-avc1_4000000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/R8c2swd.png",VTV5 Tây Nguyên
-https://vips-livecdn.fptplay.net/live/media/vtv5tn/live-hls-avc/vtv5tn-avc1_4000000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 tvg-id="vtv6hd" group-title="Truyền Hình" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png",VTV6
-https://live.fptplay53.net/live/media/v6abr/live247-hls-avc/v6abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/AgamSNe.png",VTV7
-https://live.fptplay53.net/live/media/v7abr/live247-hls-avc/v7abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/lpcltL9.png",VTV8
+#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv1.png" , VTV1 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=10000-mp4a_131600=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv2.png" , VTV2 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vips-livecdn.fptplay.net/live/media/v2abr/live247-hls-avc/v2abr-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv3.png" , VTV3 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vips-livecdn.fptplay.net/live/media/v3abr/live247-hls-avc/v3abr-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv4.png" , VTV4 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_5600000=10000-mp4a_131600=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv5.png" , VTV5 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_131600=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://image1.vnmedia.xyz/logo/vtv6hd.png" , VTV6 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vips-livecdn.fptplay.net/live/media/v6abr/live247-hls-avc/v6abr-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv7.png" , VTV7 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vips-livecdn.fptplay.net/live/media/v7abr/live247-hls-avc/v7abr-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv8.png" , VTV8 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vips-livecdn.fptplay.net/live/media/vtv8/live-hls-avc/vtv8-avc1_4000000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
-https://live.fptplay53.net/live/media/v9abr/live247-hls-avc/v9abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
-#EXTINF:-1 group-title="Truyền Hình" tvg-logo="https://i.imgur.com/HCpqatZ.png",VTV10
-https://live.fptplay53.net/live/media/v10abr/live247-hls-avc/v10abr-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
+#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv9.png" , VTV9 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://vips-livecdn.fptplay.net/live/media/v9abr/live247-hls-avc/v9abr-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv10" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv10.png" , VTV10 HD
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/fnxhd1/vtv10hd_vhls.smil/chunklist_b5000000.m3u8
+
+#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv5tnb.png", VTV5 HD - Tây Nam Bộ 
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb-avc1_4000000=10000-mp4a_131600=20000.m3u8
+
+#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vtv5tn.png", VTV5 HD - Tây Nguyên 
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn-avc1_4000000=10000-mp4a_131600=20000.m3u8
 
 #EXTINF:-1 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="http://vietanh18h1.duckdns.org/ic/vietnamtoday.png",VietNam Today
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -245,11 +267,11 @@ https://live.fptplay53.net/fnxsd1/tuyenquang_hls.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="hitv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/hitv.png", HiTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=32&expires=1783151260&token=670c944a33ee39df667768a61063b682
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=32&expires=1783159019&token=6ad0ca514b87032f1b81a7a6f9bced4d
 
 #EXTINF:-1 tvg-id="youtv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/youtv.png", You TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=31&expires=1783151260&token=090c37d3519fb95842503649c6af317b
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=31&expires=1783159019&token=6f6b704a22e4922bf5a9c57e5210151e
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://vietanhtv.id.vn/logo/htv1.png", HTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -285,7 +307,7 @@ https://live.fptplay53.net/epzhd1/htvcthuanviethd_vhls.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="htvcplushd" group-title="HTV" tvg-logo="https://vietanhtv.id.vn/logo/htvcplus.png", HTVC Plus HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=132&expires=1783151260&token=56f26760f3e87c671095ea6390af6eb7
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=132&expires=1783159019&token=028e43d1353cf83fe01a375e10070d62
 
 #EXTINF:-1 tvg-id="htvcdulichhd" group-title="HTV" tvg-logo="https://vietanhtv.id.vn/logo/htvcdulichcuocsong.png", HTVC Du Lịch HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -297,7 +319,7 @@ https://live.fptplay53.net/epzhd1/htvcmusic_vhls.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="htvcphimhd" group-title="HTV" tvg-logo="https://img-ali1.tv360.vn/image1/2021/07/01/15/1625129239161/48401c7a9ce3_480_270.png", HTVC Phim HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=15&expires=1783151260&token=30cdc0347705aefe9c1de1c95b32eec5
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=15&expires=1783159019&token=fb5be156d92d66e385f7dc61f3d9b83f
 
 #EXTINF:-1 tvg-id="htvcgiadinhhd" group-title="HTV" tvg-logo="https://vietanhtv.id.vn/logo/htvcgiadinh.png", HTVC Gia Đình HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -312,43 +334,43 @@ https://vpsttt.vietanhtv.top/vieon/vieon.php?id=vie-giai-tri-hd
 
 #EXTINF:-1 tvg-id="onphimviet" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onphimviet.png", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=175&expires=1783151260&token=817b5bf3a0350d62049ef7f935d2f70d
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=175&expires=1783159019&token=f3e5a68d6420879cf733a97b5a31dae7
 
 #EXTINF:-1 tvg-id="onmovies" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onmovies.png", On Movies 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=181&expires=1783151260&token=cf6f2fac24f406950a360b3595e0ea21
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=181&expires=1783159019&token=7c75bec42b0fa7202ff92c593ad5afe1
 
 #EXTINF:-1 tvg-id="onechannel" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onechannel.png", ON E- Channel
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=182&expires=1783151260&token=c76e92fa66da5c2b80263dc6a0409e07
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=182&expires=1783159019&token=9ec2c15be5d802dbee179451439158fc
 
 #EXTINF:-1 tvg-id="ono2tv" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/ono2tv.png", On O2TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=136&expires=1783151260&token=d17f9df25d643be6f0a4c5be6a430d38
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=136&expires=1783159019&token=da180e8e71b6e7127b1fc450e701d94c
 
 #EXTINF:-1 tvg-id="onbibi" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onbibi.png", On BiBi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=178&expires=1783151260&token=ec4c196d21e5eae0d776b350a0984c43
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=178&expires=1783159019&token=7e777173ac4e08f95469bb8ca20e2024
 
 #EXTINF:-1 tvg-id="oninfotv" group-title="VTVcab" tvg-logo="https://img-ali1.tv360.vn/image1/2023/07/19/09/1689732099410/a13853e5de55_480_270.png", ON Info TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=189&expires=1783151260&token=5762bf9bc47a93a7710452063f03bf05
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=189&expires=1783159019&token=02c361ceb1660606d0d895afb377dbd6
 
 #EXTINF:-1 tvg-id="oncine" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/oncine.png", ON Cine
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=176&expires=1783151260&token=62fb6d45129b8729e6ef348a366de0af
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=176&expires=1783159019&token=38cd30a2588bddc7818c6182a88b65d0
 
 #EXTINF:-1 tvg-id="onstyle" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onstyle.png", ON Style TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=184&expires=1783151260&token=17770a97226fa1593b40f097e4b00b18
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=184&expires=1783159019&token=7c2e285afd3947f38c3b2b6de289b14f
 
 #EXTINF:-1 tvg-id="onmusic" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onmusic.png", On Music
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=185&expires=1783151260&token=a4ff8c1d24e9980f7080f10c0ccd6019
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=185&expires=1783159019&token=03d2756b796c699f81aa0bf1688dd1ad
 
 #EXTINF:-1 tvg-id="ontrending" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/ontrendingtv.png", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=186&expires=1783151260&token=2c4d7883a89be3ba10f26a4d69ead3ce
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=186&expires=1783159019&token=de1f992f865016943a0595e1e2c8ed2a
 
 #EXTINF:-1 tvg-id="onviedramas" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/viedrama.png", ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -356,15 +378,15 @@ https://vpsttt.vietanhtv.top/vieon/vieon.php?id=vie-dramas-hd
 
 #EXTINF:-1 tvg-id="onvfamily" type="stream" group-title="VTVcab" tvg-logo="https://i.ibb.co/HHfL7Dq/cocab20.webp", ON V Family
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=187&expires=1783151260&token=d7c919a59b6ff386ba513defb814eab4
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=187&expires=1783159019&token=812f0a1353da2aa496b4e7e0b65f69f4
 
 #EXTINF:-1 tvg-id="onkids" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onkids.png", On Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=179&expires=1783151260&token=7e73bcbdc17878714a259e775d407228
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=179&expires=1783159019&token=6be6aca54defb02ba07455112b9db6e2
 
 #EXTINF:-1 tvg-id="onlife" group-title="VTVcab" tvg-logo="https://img-ali1.tv360.vn/image1/2023/07/19/09/1689732652862/f124f55c3587_640_360.png", On Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=188&expires=1783151260&token=fc5344d91fe54aaa0a833210a1f095fb
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=188&expires=1783159019&token=db838d71762a264b524e0c6c7f0109a8
 
 #EXTINF:-1 tvg-id="onsports" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/_ports_ng_logo_04202212.jpg", ON SPORTS 
 #KODIPROP:inputstream=inputstream.adaptive 
@@ -763,7 +785,7 @@ https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2942ed303e0d40c9b99c94c587bbf509:96cda24109734fb7920d799d58d1a9ae
 https://livevlisctcdnw.seenow.vn/mean/WO/manifest.mpd
-#EXTINF:-1 tvg-id="update" group-title="UPDATE 10:47⏱04/07" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 10:47⏱04/07
+#EXTINF:-1 tvg-id="update" group-title="UPDATE 12:56⏱04/07" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5oGX8rfISQE2e82j_6uBF0mvjnvwYDhWOCApBQWQ3tQ&s=10", UPDATE 12:56⏱04/07
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://vpsttt.vietanhtv.top/1.mp4
 #EXTINF:-1 tvg-id="VTV2" group-title="Dự phòng",VTV2
@@ -842,108 +864,108 @@ https://s7484.cdn.mytvnet.vn/pkg20/__cl/gvtsig/vstv485/manifest.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus1&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=2554&expires=1783151260&token=d6eb91b41cdd7714609b1826a4d087d3
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=2554&expires=1783159019&token=7de91f501d5e98866b6298c918d38be9
 
 #EXTINF:-1 tvg-id="tv360plus2" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus2.png", TV360+2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus2&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=1&expires=1783151260&token=2bd811ffb721ae78a72391877c3d2f84
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=1&expires=1783159019&token=ef26d97cbdd1f194d04f8f18508394ac
 
 #EXTINF:-1 tvg-id="tv360plus3" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus3.png", TV360+3
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus3&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=148&expires=1783151260&token=c90902da3b1ec3400402eb730f1a8eba
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=148&expires=1783159019&token=8705d39bdcf890fc69bb19ef76ef9e5e
 
 #EXTINF:-1 tvg-id="tv360plus4" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus4.png", TV360+4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus4&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=2458&expires=1783151260&token=c7c914ba5ff4e8235d09b12541de84f7
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=2458&expires=1783159019&token=d3845ec4e8c61168ea1393386dbcf229
 
 #EXTINF:-1 tvg-id="tv360plus5" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus5.png", TV360+5
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus5&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9867&expires=1783151260&token=e31d05a61f0bc0f75d7e297f3b410c15
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9867&expires=1783159019&token=8d4d399aa6f36dcfc34438455fa27da3
 
 #EXTINF:-1 tvg-id="tv360plus6" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus6.png", TV360+6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus6&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9868&expires=1783151260&token=9853933340bccb234582aebbe690282c
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9868&expires=1783159019&token=7c7c839dc7176ceed65e524e013ef3e5
 
 #EXTINF:-1 tvg-id="tv360plus7" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus7.png", TV360+7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus7&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9869&expires=1783151260&token=e4cf40a7a55733625b0b7ec67e9a3444
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9869&expires=1783159019&token=05e27c1eaab605e6db16d17f88b08123
 
 #EXTINF:-1 tvg-id="tv360plus8" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus8.png", TV360+8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus8&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9870&expires=1783151260&token=163382957117e6ddf7b43329167a3e96
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9870&expires=1783159019&token=75a020b17dbc82c61a128e6c40028d00
 
 #EXTINF:-1 tvg-id="tv360plus9" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus9.png", TV360+9
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9887&expires=1783151260&token=329f2023f0e4b80d751d16b4efde49f4
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9887&expires=1783159019&token=59818616e45c8299391b4f2844a1718e
 
 #EXTINF:-1 tvg-id="tv360plus10" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus10.png", TV360+10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9957&expires=1783151260&token=d61652d7e235eede73cb781a646a3338
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9957&expires=1783159019&token=50b7e39ac21221fc129786a185b8c09c
 
 #EXTINF:-1 tvg-id="tv360plus11" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus11.png", TV360+11
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9958&expires=1783151260&token=dfed4c611a683fe149058a3e4c7fb0c8
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9958&expires=1783159019&token=b81d5abc68e0225b34c0aeed62864462
 
 #EXTINF:-1 tvg-id="tv360plus12" group-title="Sự Kiện TV360" tvg-logo="https://vietanhtv.id.vn/logo/tv360plus12.png", TV360+12
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus12&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10001&expires=1783151260&token=99c35a7800b660be7c58488c78895be4
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10001&expires=1783159019&token=c22c4095972a6760c6c339b920c56821
 
 #EXTINF:-1 tvg-id="tv360plus13" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/05/15/01/1778782670293/dd4067f28084_480_270.png", TV360+13
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus13&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10022&expires=1783151260&token=1014ecaff911cc90160d7810d6f64aea
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10022&expires=1783159019&token=fdae270bb844827d6f475a66ff1bee32
 
 #EXTINF:-1 tvg-id="tv360plus14" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_480_270.png", TV360+14
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus14&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10023&expires=1783151260&token=2f486e8686e6a7b6b897b10299205634
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10023&expires=1783159019&token=7a10521ceb7e013fa95226df0a279c25
 
 #EXTINF:-1 tvg-id="tv360plus15" group-title="Sự Kiện TV360" tvg-logo="https://img-zlr1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_480_270.png", TV360+15
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://vpsttt.vietanhtv.top/tv/cleankey.php?id=tv360plus15&token=063b4db16c65c835b21119addde094bd
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10024&expires=1783151260&token=002a2eccf57e5000ace5cbc73cc36760
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=10024&expires=1783159019&token=f758c2e0bde41a72b49f7a2244a158c8
 
 #EXTINF:-1 tvg-id="tv360phimviet" group-title="Rạp Phim" tvg-logo="https://img-ali1.tv360.vn/image1/2025/12/31/18/1767180734794/7cda83f18b5d_640_360.png", Phim Việt
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9902&expires=1783151260&token=a5cf7a731346ba45d4e6d4b6a8868faf
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9902&expires=1783159019&token=c1e0cd8df7d6076648a52a8b911676ce
 
 #EXTINF:-1 tvg-id="tv360aumy" group-title="Rạp Phim" tvg-logo="https://img-ali1.tv360.vn/image1/2025/03/24/23/1742835081398/4e6776be1efd_640_360.png", Phim Âu Mỹ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9903&expires=1783151260&token=721c82432f97a7569604e5d758b32f56
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9903&expires=1783159019&token=137549e4b141844b9579f4d1135871ae
 
 #EXTINF:-1 tvg-id="tv360hoathinh" group-title="Rạp Phim" tvg-logo="https://img-ali1.tv360.vn/image1/2025/12/31/19/1767185202351/540d7e229911_640_360.png", Hoạt hình
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9934&expires=1783151260&token=09599b3b27ddcee4f0a37f9fb638458d
+https://vpsttt.vietanhtv.top/tv360/tv360.php?id=9934&expires=1783159019&token=559f8a3ef0ec428c7986bf2d79de1b7e
 
 #EXTINF:-1 group-title="Sự Kiện VTVPrime" tvg-logo="https://vtvprime.vn/sideLogoBig.png", Sự Kiện VTVPrime 1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -1141,61 +1163,6 @@ https://strm.voh.com.vn/radio/channel2/chunklist_w558517770.m3u8
 
 #EXTM3U
 
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 09:00-04/07: Angel City FC Women - Orlando Pride Women (USA NWSL) - BLV A WIN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=536185
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 09:00-04/07: Angel City FC Women - Orlando Pride Women (USA NWSL) - BLV LUCAS
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=304148
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 09:00-04/07: Angel City FC Women - Orlando Pride Women (USA NWSL) - XUÂN SON
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=501412
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 09:00-04/07: Angel City FC Women - Orlando Pride Women (USA NWSL) - BLV A TINH
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=598119
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 09:00-04/07: Angel City FC Women - Orlando Pride Women (USA NWSL) - BLV RAMBO
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=534055
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:00-04/07: Las Vegas Aces W - Chicago Sky W (WNBA) - CHAN SENA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=515530
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:00-04/07: Las Vegas Aces W - Chicago Sky W (WNBA) - A CHÈ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=356042
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:30-04/07: Mexico - Nicaragua (WCPAM) - BRIAN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=122591
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:30-04/07: Mexico - Nicaragua (WCPAM) - HUNTER
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=558264
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:30-04/07: Golden State Warriors - Los Angeles Lakers (NBASL) - KING
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=168964
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/default/202202/11/f3ca56f46baa72406815281470283bb8", 09:30-04/07: Golden State Warriors - Los Angeles Lakers (NBASL) - BLV HENRY
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=428392
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 11:00-04/07: Hume City - Dandenong City SC (Aus VPL) - BLV TOMIA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1251,11 +1218,11 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=400722
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=139384
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Avondale FC - Preston Lions (Aus VPL) - QUÂN JK
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Avondale FC - Preston Lions (Aus VPL) - LOGAN
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=611178
+https://vpsttt.vietanhtv.top/socolive/get.php?id=552832
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Western Sydney Wanderers Youth - Sydney Olympic (AUS NSW) - LÃO LÂM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1276,26 +1243,6 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=597929
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=548860
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Canberra White Eagles - Cooma Tigers (AUS CGP) - BEN 10
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=612098
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Canberra White Eagles - Cooma Tigers (AUS CGP) - HÀ DUY KIÊN
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=607400
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Queanbeyan City - Tuggeranong United (AUS CGP) - BLV YONE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=372746
-#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:00-04/07: Queanbeyan City - Tuggeranong United (AUS CGP) - KÉP
-#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
-#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
-#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
-https://vpsttt.vietanhtv.top/socolive/get.php?id=560690
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:15-04/07: Altona Magic - Melbourne City NPL (Aus VPL) - BLV CHIVAS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1306,6 +1253,16 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=485739
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=582342
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:20-04/07: Canberra White Eagles - Cooma Tigers (AUS CGP) - BEN 10
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=612098
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:20-04/07: Canberra White Eagles - Cooma Tigers (AUS CGP) - HÀ DUY KIÊN
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=607400
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:30-04/07: Adelaide United FC Youth - Campbelltown City SC (FFSA SL) - CHÍ PHÈO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -1316,6 +1273,11 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=273736
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
 #EXTVLCOPT:http-origin=https://m.socoliveqn.co/
 https://vpsttt.vietanhtv.top/socolive/get.php?id=283501
+#EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:30-04/07: Adelaide United FC Youth - Campbelltown City SC (FFSA SL) - KÉP
+#EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
+#EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
+#EXTVLCOPT:http-origin=https://m.socoliveqn.co/
+https://vpsttt.vietanhtv.top/socolive/get.php?id=560690
 #EXTINF:-1 group-title="Socolive" tvg-logo="https://sta.vnres.co/file/common/20210503/fca5954ec22137ad05325506d6645592", 12:30-04/07: Sturt Lions - Playford City (FFSA SL) - BLV LION
 #EXTVLCOPT:http-user-agent=Mozilla/5.0+(Windows+NT+11.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/113.0.0.0+Safari/537.36+Edg/113.0.1774.42
 #EXTVLCOPT:http-referrer=https://m.socoliveqn.co/
@@ -3175,30 +3137,18 @@ https://vpsttt.vietanhtv.top/socolive/get.php?id=612928
 #EXTM3U
 # Error: Không lấy được dữ liệu từ API
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/86f522333da4c3e2c144996fc4d2520b.png!w80" group-title="ColaTV",[09:00 04/07] Las Vegas Aces vs Chicago Sky - BLV BLV ROCKSTAR (L1) Giải :Hiệp hội bóng rổ quốc gia nữ
-https://live05.koepgd.app/live/82054853.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/86f522333da4c3e2c144996fc4d2520b.png!w80" group-title="ColaTV",[09:00 04/07] Las Vegas Aces vs Chicago Sky - BLV BLV ROCKSTAR (L2) Giải :Hiệp hội bóng rổ quốc gia nữ
-https://live05.koepgd.app/live/82054853.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/f60ac6fc0ddfafe4d2ad00e1ce30ff7e.png!w80" group-title="ColaTV",[09:30 04/07] Golden State Warriors vs Los Angeles Lakers - BLV BLV POCARI (L1) Giải :Giải NBA Summer League
-https://live05.koepgd.app/live/19919577.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/f60ac6fc0ddfafe4d2ad00e1ce30ff7e.png!w80" group-title="ColaTV",[09:30 04/07] Golden State Warriors vs Los Angeles Lakers - BLV BLV POCARI (L2) Giải :Giải NBA Summer League
-https://live05.koepgd.app/live/19919577.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/6ba16cfbda31aed288c6d50e4b11d710.png!w80" group-title="ColaTV",[11:00 04/07] Tauranga Whai vs Auckland Huskies - BLV BLV 247 (L1) Giải :Giải Quốc Gia Bóng Rổ New Zealand
-https://live05.koepgd.app/live/90865415.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/6ba16cfbda31aed288c6d50e4b11d710.png!w80" group-title="ColaTV",[11:00 04/07] Tauranga Whai vs Auckland Huskies - BLV BLV 247 (L2) Giải :Giải Quốc Gia Bóng Rổ New Zealand
-https://live05.koepgd.app/live/90865415.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/c1c958040a24d72e754fa04677b39f99.png!w80" group-title="ColaTV",[11:00 04/07] Hume City vs Dandenong City - BLV BLV FANTA (L1) Giải :Giải bóng đá Hạng nhất Victoria của Úc
-https://live05.koepgd.app/live/16226575.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/c1c958040a24d72e754fa04677b39f99.png!w80" group-title="ColaTV",[11:00 04/07] Hume City vs Dandenong City - BLV BLV FANTA (L2) Giải :Giải bóng đá Hạng nhất Victoria của Úc
-https://live05.koepgd.app/live/16226575.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/83da3307e1d67e67f68520382e22ed93.png!w80" group-title="ColaTV",[11:30 04/07] Robina City vs Broadbeach United - BLV BLV SPRITE (L1) Giải :Giải bóng đá hạng nhất Queensland, Úc
 https://live05.koepgd.app/live/75748097.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/83da3307e1d67e67f68520382e22ed93.png!w80" group-title="ColaTV",[11:30 04/07] Robina City vs Broadbeach United - BLV BLV SPRITE (L2) Giải :Giải bóng đá hạng nhất Queensland, Úc
 https://live05.koepgd.app/live/75748097.m3u8
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[12:00 04/07] Canberra White Eagles vs Tigers FC - BLV BLV BÍ ĐAO (L1) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[12:20 04/07] Canberra White Eagles vs Tigers FC - BLV BLV BÍ ĐAO (L1) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
 https://live05.koepgd.app/live/99121525.flv
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[12:00 04/07] Canberra White Eagles vs Tigers FC - BLV BLV BÍ ĐAO (L2) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/b656d2fe90a3c1a90d9054c3b7b146e9.png!w80" group-title="ColaTV",[12:20 04/07] Canberra White Eagles vs Tigers FC - BLV BLV BÍ ĐAO (L2) Giải :Giải bóng đá Hạng nhất Thủ đô Canberra của Úc
 https://live05.koepgd.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/f60ac6fc0ddfafe4d2ad00e1ce30ff7e.png!w80" group-title="ColaTV",[09:30 04/07] Golden State Warriors vs Los Angeles Lakers - BLV BLV POCARI (L1) Giải :Giải NBA Summer League
+https://live05.koepgd.app/live/19919577.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/f60ac6fc0ddfafe4d2ad00e1ce30ff7e.png!w80" group-title="ColaTV",[09:30 04/07] Golden State Warriors vs Los Angeles Lakers - BLV BLV POCARI (L2) Giải :Giải NBA Summer League
+https://live05.koepgd.app/live/19919577.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/c1c958040a24d72e754fa04677b39f99.png!w80" group-title="ColaTV",[12:15 04/07] Altona Magic vs Melbourne City NPL - BLV BLV POCARI (L1) Giải :Giải bóng đá Hạng nhất Victoria của Úc
 https://live05.koepgd.app/live/19919577.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/c1c958040a24d72e754fa04677b39f99.png!w80" group-title="ColaTV",[12:15 04/07] Altona Magic vs Melbourne City NPL - BLV BLV POCARI (L2) Giải :Giải bóng đá Hạng nhất Victoria của Úc
@@ -3215,6 +3165,10 @@ https://live05.koepgd.app/live/87379114.m3u8
 https://live05.koepgd.app/live/24561735.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/c1c958040a24d72e754fa04677b39f99.png!w80" group-title="ColaTV",[15:00 04/07] George Cross vs Oakleigh Cannons - BLV BLV COCA (L2) Giải :Giải bóng đá Hạng nhất Victoria của Úc
 https://live05.koepgd.app/live/24561735.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/56992318528767b170f5ca4c2a15525a.png!w80" group-title="ColaTV",[15:45 04/07] Venezuela U17 vs Japan U17 - BLV BLV PEPSI (L1) Giải : Giải bóng rổ Thế giới FIBA U17
+https://live05.koepgd.app/live/59444581.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/56992318528767b170f5ca4c2a15525a.png!w80" group-title="ColaTV",[15:45 04/07] Venezuela U17 vs Japan U17 - BLV BLV PEPSI (L2) Giải : Giải bóng rổ Thế giới FIBA U17
+https://live05.koepgd.app/live/59444581.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 04/07] Hà Nội 2 Nữ vs Thái Nguyên Nữ - BLV BLV 247 (L1) Giải :Women's National League
 https://live05.koepgd.app/live/90865415.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/40121ad4dae08e4bef3bb8d4a46606d1.png!w80" group-title="ColaTV",[16:00 04/07] Hà Nội 2 Nữ vs Thái Nguyên Nữ - BLV BLV 247 (L2) Giải :Women's National League
@@ -3439,6 +3393,58 @@ https://live05.koepgd.app/live/59444581.m3u8
 https://live05.koepgd.app/live/90865415.flv
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/basketball/competition/8faa21f92a8b5cb3c161a0ad553a2757.png!w80" group-title="ColaTV",[22:30 05/07] Gruzia vs Tây Ban Nha - BLV BLV 247 (L2) Giải :Vòng loại World Cup châu Âu
 https://live05.koepgd.app/live/90865415.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/f1d0b88fbf66a26ed8777ba39a13b24a.png!w80" group-title="ColaTV",[01:30 06/07] Ferrol Carril Oeste vs San Telmo - BLV BLV FANTA (L1) Giải :Giải bóng đá Hạng nhì Argentina
+https://live05.koepgd.app/live/16226575.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/f1d0b88fbf66a26ed8777ba39a13b24a.png!w80" group-title="ColaTV",[01:30 06/07] Ferrol Carril Oeste vs San Telmo - BLV BLV FANTA (L2) Giải :Giải bóng đá Hạng nhì Argentina
+https://live05.koepgd.app/live/16226575.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV C2 (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/08552895.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV C2 (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/08552895.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV 7UP (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/78905744.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV 7UP (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/78905744.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV COCA (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/24561735.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV COCA (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/24561735.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV GIÀ LÀNG (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/14830711.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[03:00 06/07] Brazil vs Na Uy - BLV BLV GIÀ LÀNG (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/14830711.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/6813ba1ebe40c6bc7bb1b081d916a1a6.png!w80" group-title="ColaTV",[06:30 06/07] Nautico vs CLB Juventude - BLV BLV BÍ ĐAO (L1) Giải :Giải bóng đá Hạng nhì Brasil
+https://live05.koepgd.app/live/99121525.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/6813ba1ebe40c6bc7bb1b081d916a1a6.png!w80" group-title="ColaTV",[06:30 06/07] Nautico vs CLB Juventude - BLV BLV BÍ ĐAO (L2) Giải :Giải bóng đá Hạng nhì Brasil
+https://live05.koepgd.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV C2 (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/08552895.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV C2 (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/08552895.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV 7UP (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/78905744.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV 7UP (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/78905744.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV COCA (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/24561735.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV COCA (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/24561735.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV GIÀ LÀNG (L1) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/14830711.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/da617cd58cd9cffaae0daec865457fb5.png!w80" group-title="ColaTV",[07:00 06/07] Mexico vs ĐTQG Anh - BLV BLV GIÀ LÀNG (L2) Giải :Giải vô địch bóng đá thế giới
+https://live05.koepgd.app/live/14830711.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[11:00 06/07] FC Ulaanbaatar vs Deren FC - BLV BLV BÍ ĐAO (L1) Giải :Giải ngoại hạng Mông Cổ
+https://live05.koepgd.app/live/99121525.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[11:00 06/07] FC Ulaanbaatar vs Deren FC - BLV BLV BÍ ĐAO (L2) Giải :Giải ngoại hạng Mông Cổ
+https://live05.koepgd.app/live/99121525.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[14:00 06/07] Khangarid Klub vs Bồ câu ở Buganut - BLV BLV MOUNTAIN DEW (L1) Giải :Giải ngoại hạng Mông Cổ
+https://live05.koepgd.app/live/87547578.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/70f03bd4da7c486b8ca8f11ab251ce34.png!w80" group-title="ColaTV",[14:00 06/07] Khangarid Klub vs Bồ câu ở Buganut - BLV BLV MOUNTAIN DEW (L2) Giải :Giải ngoại hạng Mông Cổ
+https://live05.koepgd.app/live/87547578.m3u8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/71ec56470b1f954a153d98413368256e.png!w80" group-title="ColaTV",[23:00 06/07] Super Nova vs yêu tinh United - BLV BLV FANTA (L1) Giải :Giải bóng đá Cao cấp Latvia
+https://live05.koepgd.app/live/16226575.flv
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/competition/71ec56470b1f954a153d98413368256e.png!w80" group-title="ColaTV",[23:00 06/07] Super Nova vs yêu tinh United - BLV BLV FANTA (L2) Giải :Giải bóng đá Cao cấp Latvia
+https://live05.koepgd.app/live/16226575.m3u8
 
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/23289.png" group-title="Hội Quán TV",[15:30 04/07] Shanghai Port II vs BIT - BLV PHAN CA (FHD)
