@@ -9,7 +9,7 @@ FILE_PATH = 'playlist.m3u'
 def download_and_sort_playlist():
     print(f"Đang tải dữ liệu từ {URL}...")
     try:
-        # Thêm Header User-Agent để tránh bị máy chủ chặn (lỗi 403)
+        # Thêm Header User-Agent để tránh bị máy chủ chặn
         req = urllib.request.Request(URL, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
             content = response.read().decode('utf-8')
@@ -40,21 +40,42 @@ def download_and_sort_playlist():
     if current_block:
         channels.append(current_block)
 
-    # 2. Lọc (xóa) các kênh bị lỗi "độ trễ thấp"
+    # 2. Lọc kênh (Chỉ giữ lại các nhóm yêu cầu & Xóa kênh VTV lỗi)
     filtered_channels = []
-    print("--- BẮT ĐẦU DỌN DẸP KÊNH LỖI ---")
+    
+    # Khai báo các nhóm kênh muốn giữ lại
+    wanted_groups = [
+        'GROUP-TITLE="VTV"',
+        'GROUP-TITLE="ĐỊA PHƯƠNG"',
+        'GROUP-TITLE="HTV"',
+        'GROUP-TITLE="VTVCAB"',
+        'GROUP-TITLE="SCTV"',
+        'GROUP-TITLE="QUỐC TẾ"',
+        'GROUP-TITLE="IN THE BOX"'
+    ]
+
+    print("--- BẮT ĐẦU LỌC KÊNH ---")
     for block in channels:
         extinf = block[0].upper()
-        # Bỏ qua kênh nếu thuộc nhóm VTV VÀ có chứa chữ "ĐỘ TRỄ THẤP"
+        
+        # Bỏ qua kênh VTV "độ trễ thấp"
         if 'GROUP-TITLE="VTV"' in extinf and 'ĐỘ TRỄ THẤP' in extinf:
-            # Lấy tên kênh in ra log để dễ theo dõi
-            channel_name = block[0].split(',')[-1].strip()
-            print(f"Đã loại bỏ: {channel_name}")
-            continue # Bỏ qua, không đưa kênh này vào danh sách mới
-        filtered_channels.append(block)
-    print("--- KẾT THÚC DỌN DẸP ---")
+            continue
+            
+        # Kiểm tra xem kênh này có nằm trong danh sách wanted_groups không
+        is_wanted = False
+        for group in wanted_groups:
+            if group in extinf:
+                is_wanted = True
+                break
+                
+        # Nếu kênh thuộc nhóm mong muốn thì mới thêm vào danh sách cuối cùng
+        if is_wanted:
+            filtered_channels.append(block)
 
-    # 3. Đặt mức độ ưu tiên theo đúng yêu cầu
+    print(f"Đã giữ lại {len(filtered_channels)} kênh hợp lệ.")
+
+    # 3. Đặt mức độ ưu tiên để sắp xếp thứ tự
     def get_priority(block):
         extinf = block[0].upper()
         if 'GROUP-TITLE="VTV"' in extinf:
@@ -72,9 +93,9 @@ def download_and_sort_playlist():
         elif 'GROUP-TITLE="IN THE BOX"' in extinf:
             return 6
         else:
-            return 7 # Tất cả các nhóm kênh còn lại sẽ xếp dưới cùng
+            return 7
 
-    # Sắp xếp lại danh sách đã lọc
+    # Sắp xếp lại danh sách
     filtered_channels.sort(key=get_priority)
 
     # 4. Ghi ra file
@@ -83,7 +104,7 @@ def download_and_sort_playlist():
         for block in filtered_channels:
             f.writelines(block)
 
-    print("Đã tải, lọc kênh lỗi, sắp xếp và lưu thành công!")
+    print("Đã tải, lọc, sắp xếp và lưu thành công!")
 
 if __name__ == '__main__':
     download_and_sort_playlist()
