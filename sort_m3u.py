@@ -2,7 +2,7 @@ import urllib.request
 import os
 
 # Link chứa file M3U gốc của bạn
-URL = 'https://vpsttt.vietanhtv.top/tv/' 
+URL = 'https://tv.vietanhtv.top/tv/' 
 # Tên file bạn muốn lưu trên GitHub
 FILE_PATH = 'playlist.m3u'
 
