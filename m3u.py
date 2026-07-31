@@ -4,7 +4,7 @@ import os
 # Link chứa file M3U gốc của bạn
 URL = 'https://tv.vietanhtv.top/tv/' 
 # Tên file bạn muốn lưu trên GitHub
-FILE_PATH = 'playlist.m3u'
+FILE_PATH = 'vtv.m3u'
 
 def download_and_sort_playlist():
     print(f"Đang tải dữ liệu từ {URL}...")
