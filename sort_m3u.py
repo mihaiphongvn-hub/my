@@ -2,7 +2,7 @@ import urllib.request
 import os
 
 # Link chứa file M3U gốc của bạn
-URL = 'https://tv.vietanhtv.top/tv/' 
+URL = 'https://github.com/vietng228/m3u/raw/refs/heads/main/m3u.m3u' 
 
 def download_and_sort_playlist():
     print(f"Đang tải dữ liệu từ {URL}...")
