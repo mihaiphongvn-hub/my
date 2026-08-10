@@ -2,7 +2,8 @@ name: Auto Fetch and Sort M3U
 
 on:
   schedule:
-    - cron: '0 */6 * * *' 
+    # Đã sửa thành chạy mỗi 1 tiếng (vào phút số 0 của mỗi giờ)
+    - cron: '0 * * * *' 
   workflow_dispatch: 
 
 jobs:
