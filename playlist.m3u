@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://lichphatsong.io.vn/epg.xml"
-#UPDATE 23:25⏱16/08 | VietAnhTV × SXTV 
+#UPDATE 00:19⏱17/08 | VietAnhTV × SXTV 
 
 #EXTINF:-1 group-title="VTV" tvg-logo="https://vtvgo-images.vtvdigital.vn/images/20230626/5de59236-89a2-4387-8664-f2fc27608093.jpg",VTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 10.0) AppleWebKit/537.36 (KHTML, like Gecko) 130.0.6723.116/10.0 TV Safari/537.36
@@ -247,11 +247,11 @@ https://live.fptplay53.net/fnxsd1/tuyenquang_hls.smil/chunklist_b2500000.m3u8
 
 #EXTINF:-1 tvg-id="hitv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/hitv.png", HiTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=32&expires=1786983925&token=03b835f802ce94cacba489015195e2b1
+https://tv.vietanhtv.top/tv360/tv360.php?id=32&expires=1786987185&token=3c89177b20702bbdf80eba9cbabf4cf1
 
 #EXTINF:-1 tvg-id="youtv" group-title="Địa Phương" tvg-logo="https://freem3u.xyz/static/images/hanoicab/youtv.png", You TV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=31&expires=1786983925&token=fca3e83468e3e7efa6cc9c6e1596354f
+https://tv.vietanhtv.top/tv360/tv360.php?id=31&expires=1786987185&token=06364acecf40267c0300a8fcee9d5e64
 
 #EXTINF:-1 tvg-id="htv1" group-title="HTV" tvg-logo="https://vietanhtv.id.vn/logo/htv1.png", HTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -314,43 +314,43 @@ https://tv.vietanhtv.top/vieon/vieon.php?id=vie-giai-tri-hd
 
 #EXTINF:-1 tvg-id="onphimviet" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onphimviet.png", ON Phim Việt
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=175&expires=1786983925&token=4e015ac8b8c411a283f95c490476a9be
+https://tv.vietanhtv.top/tv360/tv360.php?id=175&expires=1786987185&token=ab1ff004e36df259cf95b53fc95bdb44
 
 #EXTINF:-1 tvg-id="onmovies" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onmovies.png", On Movies 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=181&expires=1786983925&token=a9b95a9a0727af64fcce58e02407ebcf
+https://tv.vietanhtv.top/tv360/tv360.php?id=181&expires=1786987185&token=cc2faeb9d65b64e90bcdc953cc17d7de
 
 #EXTINF:-1 tvg-id="onechannel" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onechannel.png", ON E- Channel
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=182&expires=1786983925&token=610680f875435a7dc96eb337dfe1e26e
+https://tv.vietanhtv.top/tv360/tv360.php?id=182&expires=1786987185&token=068e4a8ea5a2e037df07681e9ac44967
 
 #EXTINF:-1 tvg-id="ono2tv" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/ono2tv.png", On O2TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=136&expires=1786983925&token=469562ad3d092b6ae9e2b8dc927e4bf1
+https://tv.vietanhtv.top/tv360/tv360.php?id=136&expires=1786987185&token=e5284e8927be81d24dfa1bb11dc87a30
 
 #EXTINF:-1 tvg-id="onbibi" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onbibi.png", On BiBi
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=178&expires=1786983925&token=bf2fbdc64d47bacb9bc416cfed5ad9c2
+https://tv.vietanhtv.top/tv360/tv360.php?id=178&expires=1786987185&token=55eb5d1023fba9476d3527a48ab25984
 
 #EXTINF:-1 tvg-id="oninfotv" group-title="VTVcab" tvg-logo="https://img-ali1.tv360.vn/image1/2023/07/19/09/1689732099410/a13853e5de55_480_270.png", ON Info TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=189&expires=1786983925&token=701a2860148be77c3c2cc715e8a389cf
+https://tv.vietanhtv.top/tv360/tv360.php?id=189&expires=1786987185&token=be51108fef856faf1812c3228450e08a
 
 #EXTINF:-1 tvg-id="oncine" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/oncine.png", ON Cine
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=176&expires=1786983925&token=1f292663c5d8f778c5b1b47da8a3467d
+https://tv.vietanhtv.top/tv360/tv360.php?id=176&expires=1786987185&token=ea20421faa7941104e75297b56b3860f
 
 #EXTINF:-1 tvg-id="onstyle" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onstyle.png", ON Style TV
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=184&expires=1786983925&token=986457a8b29a347ac61eae9bd19a0b53
+https://tv.vietanhtv.top/tv360/tv360.php?id=184&expires=1786987185&token=8a7585842ae2a469d6510ca5eaeb62d1
 
 #EXTINF:-1 tvg-id="onmusic" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onmusic.png", On Music
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tv.vietanhtv.top/tv360/tv360.php?id=185&expires=1786983925&token=d2af96b960310d906c67c753d7ee0a45
+https://tv.vietanhtv.top/tv360/tv360.php?id=185&expires=1786987185&token=720a9d0e00f427b18e0845643f2ad47d
 
 #EXTINF:-1 tvg-id="ontrending" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/ontrendingtv.png", ON TRENDING TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=186&expires=1786983925&token=bf83bdc3e8c280e9a2f95c514539689e
+https://tv.vietanhtv.top/tv360/tv360.php?id=186&expires=1786987185&token=b256b32a4e191d8a96d33ee4b97f2735
 
 #EXTINF:-1 tvg-id="onviedramas" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/viedrama.png", ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -358,51 +358,51 @@ https://tv.vietanhtv.top/vieon/vieon.php?id=vie-dramas-hd
 
 #EXTINF:-1 tvg-id="onvfamily" type="stream" group-title="VTVcab" tvg-logo="https://i.ibb.co/HHfL7Dq/cocab20.webp", ON V Family
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=187&expires=1786983925&token=c510325525d5d936143a72329759de11
+https://tv.vietanhtv.top/tv360/tv360.php?id=187&expires=1786987185&token=eb75a87caa404bd89aa8af8765badefc
 
 #EXTINF:-1 tvg-id="onkids" group-title="VTVcab" tvg-logo="https://vietanhtv.id.vn/logo/onkids.png", On Kids
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=179&expires=1786983925&token=9b0ddd944bf4f5ca45bfb887423a787e
+https://tv.vietanhtv.top/tv360/tv360.php?id=179&expires=1786987185&token=07e5ac2b4b7de7947a304d11031ca4a8
 
 #EXTINF:-1 tvg-id="onlife" group-title="VTVcab" tvg-logo="https://img-ali1.tv360.vn/image1/2023/07/19/09/1689732652862/f124f55c3587_640_360.png", On Life
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=188&expires=1786983925&token=150acef6e039b01ff47975ffc3c3dd86
+https://tv.vietanhtv.top/tv360/tv360.php?id=188&expires=1786987185&token=a7cbf9a3eacb1dd0298a5dec05a5fefa
 
 #EXTINF:-1 tvg-id="onsports" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/_ports_ng_logo_04202212.jpg", ON SPORTS 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360173&token=585cc4d2a5a71d7f3b6ecb636bafc5dd
-https://tv.vietanhtv.top/tv360/tv360.php?id=173&expires=1786983925&token=7a78baaf0b6eba42f315d1f8728749e7
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360173&token=a87e0303bc94d437644789074c516688
+https://tv.vietanhtv.top/tv360/tv360.php?id=173&expires=1786987185&token=3dd3aa1b300355fd4d40b2f4afa9d6ad
 
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/onsportscongmoi1.jpg", ON SPORTS+ 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360183&token=585cc4d2a5a71d7f3b6ecb636bafc5dd
-https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1786983925&token=3f3a58314df5b1fbda5ba8a756c4fc22
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360183&token=a87e0303bc94d437644789074c516688
+https://tv.vietanhtv.top/tv360/tv360.php?id=183&expires=1786987185&token=689aa76f032bf9337b68a05f2d9cff09
 
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/hq/posters/_ootball_-_opyright_by_cab_logo_202212.jpg", ON FOOTBALL
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360174&token=585cc4d2a5a71d7f3b6ecb636bafc5dd
-https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1786983925&token=1ebcf1300064d0b3f7c036abb805cabc
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360174&token=a87e0303bc94d437644789074c516688
+https://tv.vietanhtv.top/tv360/tv360.php?id=174&expires=1786987185&token=c87a04f94df9fbcdef48779c42fe6104
 
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONSPORTSNEWS_150x904_1675158858.webp", ON SPORTS NEWS 
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360170&token=585cc4d2a5a71d7f3b6ecb636bafc5dd
-https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1786983925&token=a702491ac04057f9a656204f70d2de2d
+#KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/tv/cleankey.php?id=tv360170&token=a87e0303bc94d437644789074c516688
+https://tv.vietanhtv.top/tv360/tv360.php?id=170&expires=1786987185&token=9b42b360171b1e7662fa76f8bc2aefe1
 
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://assets-vtvcab.gviet.vn/images/v2/channel/20220613/2022061306/Logo_ONGOLF_150x903_1675158871.webp", ON GOLF 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1786983925&token=fda96f3dae30b9d0fe3d70da4628821d
+https://tv.vietanhtv.top/tv360/tv360.php?id=169&expires=1786987185&token=79c55df0e206a88f08aeb83be0955f17
 
 #EXTINF:-1 tvg-id="sctv1hd" group-title="SCTV" tvg-logo="https://vietanhtv.id.vn/logo/sctv1.png", SCTV1 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
