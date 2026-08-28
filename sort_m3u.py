@@ -3,7 +3,7 @@ import os
 
 # Khai báo 2 link nguồn
 URL_VTV = 'https://github.com/vietng228/m3u/raw/refs/heads/main/m3u.m3u'
-URL_OTHER = 'https://tv.vietanhtv.top/tv/'
+URL_OTHER = 'https://github.com/vietng228/m3u/raw/refs/heads/main/m3u.m3u'
 
 # Hàm phụ: Tải dữ liệu từ URL
 def get_content(url):
