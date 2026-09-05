@@ -171,11 +171,11 @@ https://live.fptplay53.net/epzsd1/quangngai_hls.smil/chunklist_b2500000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/epzsd1/quangtri_hls.smil/chunklist_b2500000.m3u8
 
-#EXTINF:-1 tvg-id="hanoi1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/hanoi1.png", Hà Nội 1 
+#EXTINF:-1 tvg-id="hanoi1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/hanoi1.png", HTV1  | Hà Nội 1 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/fnxhd2/hanoitv1_vhls.smil/chunklist_b5000000.m3u8
 
-#EXTINF:-1 tvg-id="hanoi2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/hanoi2.png", Hà Nội 2
+#EXTINF:-1 tvg-id="hanoi2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/hanoi2.png", HTV2  | Hà Nội 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://live.fptplay53.net/live/media/hanoitv2/live-hls-avc/hanoitv2-avc1_4000000=10000-mp4a_131600=20000.m3u8
 
@@ -320,9 +320,9 @@ https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist_b5000000.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://vietanhtv.id.vn/sctv/sctv-4k/index.m3u8
 
-#EXTINF:-1 tvg-id="tvb-vietnam" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/tvb-vietnam.png",TVB Việt Nam
+#EXTINF:-1 tvg-id="tvb-vietnam" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/tvb-vietnam.png", TVB Việt Nam
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8?_xtfc=6864eb7721a75224098f21dba116e648&_xt=1772525259
-#EXTINF:-1 tvg-id="nhk_premium" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/nhk_premium.png",NHK Premium
+#EXTINF:-1 tvg-id="nhk_premium" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/vietng228/m3u/main/logos/nhk_premium.png", NHK Premium
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://cdn3.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium.m3u8
