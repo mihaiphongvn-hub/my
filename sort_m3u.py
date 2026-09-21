@@ -3,24 +3,15 @@ import urllib.request
 import urllib.error
 from urllib.parse import urlsplit
 
+SOURCE_URL = os.environ.get("SOURCE_URL", "").strip()
 
-# =========================================================
+def get_content(url):
+    print("Đang tải nguồn playlist...")
 
-URL_VTV = os.environ.get("URL_VTV", "").strip()
-URL_OTHER = os.environ.get("URL_OTHER", "").strip()
-
-
-def require_sources():
-    if not URL_VTV:
-        raise RuntimeError("Thiếu GitHub Secret: URL_VTV")
-    if not URL_OTHER:
-        raise RuntimeError("Thiếu GitHub Secret: URL_OTHER")
-
-
-# =========================================================
-
-def get_content(url, source_name):
-    print(f"Đang tải {source_name}...")
+    if not url:
+        raise RuntimeError(
+            "Thiếu biến SOURCE_URL. Hãy tạo GitHub Secret SOURCE_URL."
+        )
 
     try:
         req = urllib.request.Request(
@@ -39,40 +30,23 @@ def get_content(url, source_name):
         text = data.decode("utf-8", errors="replace")
 
         if not text.strip():
-            print(f"[LỖI] {source_name} trả dữ liệu rỗng.")
-            return ""
+            raise RuntimeError("Nguồn playlist trả dữ liệu rỗng.")
 
         if "#EXTM3U" not in text[:1000]:
-            print(f"[LỖI] {source_name} không giống playlist M3U.")
-            return ""
+            raise RuntimeError("Dữ liệu tải về không phải playlist M3U.")
 
-        print(f"[OK] {source_name}: {len(data)} bytes.")
+        print(f"[OK] Đã tải {len(data)} bytes.")
         return text
 
     except urllib.error.HTTPError as exc:
-        # Chỉ hiện HTTP status, không hiện URL.
-        print(f"[LỖI] {source_name}: HTTP {exc.code}.")
-        return ""
+        raise RuntimeError(f"Nguồn trả HTTP {exc.code}.") from None
 
     except urllib.error.URLError:
-        print(f"[LỖI] {source_name}: không kết nối được.")
-        return ""
+        raise RuntimeError("Không kết nối được tới nguồn playlist.") from None
 
-    except Exception:
-        print(f"[LỖI] {source_name}: tải dữ liệu thất bại.")
-        return ""
-
-
-# =========================================================
-# PARSE PLAYLIST THÀNH TỪNG BLOCK KÊNH
-# =========================================================
 
 def parse_m3u(content):
-    if not content:
-        return ["#EXTM3U\n"], []
-
     lines = content.splitlines(True)
-
     header_lines = []
     channels = []
     current_block = []
@@ -102,10 +76,6 @@ def parse_m3u(content):
     return header_lines, channels
 
 
-# =========================================================
-# LẤY STREAM URL TRONG BLOCK
-# =========================================================
-
 def get_stream_url(block):
     for line in block:
         line = line.strip()
@@ -119,13 +89,6 @@ def get_stream_url(block):
     return ""
 
 
-# =========================================================
-# KIỂM TRA URL CÓ PHẢI .M3U8
-# Hỗ trợ:
-#   link.m3u8?token=...
-#   link.m3u8|User-Agent=...
-# =========================================================
-
 def is_m3u8_url(url):
     if not url:
         return False
@@ -137,10 +100,6 @@ def is_m3u8_url(url):
     except Exception:
         return ".m3u8" in base_url.lower()
 
-
-# =========================================================
-# ĐỘ ƯU TIÊN NHÓM
-# =========================================================
 
 def get_priority(block):
     extinf = block[0].upper()
@@ -163,61 +122,14 @@ def get_priority(block):
     return 99
 
 
-# =========================================================
-# MAIN
-# =========================================================
+def main():
+    content = get_content(SOURCE_URL)
+    header, channels = parse_m3u(content)
 
-def download_and_sort_playlist():
-    require_sources()
+    if not channels:
+        raise RuntimeError("Playlist không có block #EXTINF nào.")
 
-    print("=" * 60)
-    print("AUTO FETCH AND SORT M3U")
-    print("=" * 60)
-
-    # -----------------------------------------------------
-    # NGUỒN VTV
-    # -----------------------------------------------------
-
-    content_vtv = get_content(URL_VTV, "nguồn VTV")
-    header_vtv, channels_vtv_source = parse_m3u(content_vtv)
-
-    if not channels_vtv_source:
-        raise RuntimeError("Không lấy được kênh từ nguồn VTV.")
-
-    # -----------------------------------------------------
-    # NGUỒN CÁC NHÓM KHÁC
-    # -----------------------------------------------------
-
-    content_other = get_content(URL_OTHER, "nguồn OTHER")
-    header_other, channels_other_source = parse_m3u(content_other)
-
-    if not channels_other_source:
-        raise RuntimeError("Không lấy được kênh từ nguồn OTHER.")
-
-    base_filtered_channels = []
-
-    # =====================================================
-    # VTV
-    # =====================================================
-
-    vtv_count = 0
-
-    for block in channels_vtv_source:
-        if not block:
-            continue
-
-        extinf = block[0].upper()
-
-        if 'GROUP-TITLE="VTV"' in extinf:
-            if "ĐỘ TRỄ THẤP" in extinf:
-                continue
-
-            base_filtered_channels.append(block)
-            vtv_count += 1
-
-    # =====================================================
-    # NHÓM KHÁC
-    # =====================================================
+    selected = []
 
     wanted_others = [
         'GROUP-TITLE="ĐỊA PHƯƠNG"',
@@ -228,66 +140,46 @@ def download_and_sort_playlist():
         'GROUP-TITLE="IN THE BOX"',
     ]
 
-    other_count = 0
-
-    for block in channels_other_source:
+    for block in channels:
         if not block:
             continue
 
         extinf = block[0].upper()
 
+        if 'GROUP-TITLE="VTV"' in extinf:
+            if "ĐỘ TRỄ THẤP" in extinf:
+                continue
+
+            selected.append(block)
+            continue
+
         if any(group in extinf for group in wanted_others):
-            base_filtered_channels.append(block)
-            other_count += 1
+            selected.append(block)
 
-    # =====================================================
-    # HEADER
-    # =====================================================
+    selected.sort(key=get_priority)
 
-    header_to_write = header_other or header_vtv or ["#EXTM3U\n"]
-
-    # =====================================================
-    # vtv.m3u
-    # CHỈ LINK .m3u8
-    # =====================================================
-
-    filtered_m3u8 = []
-
-    for block in base_filtered_channels:
-        stream_url = get_stream_url(block)
-
-        if is_m3u8_url(stream_url):
-            filtered_m3u8.append(block)
-
-    filtered_m3u8.sort(key=get_priority)
+    m3u8_only = [
+        block for block in selected
+        if is_m3u8_url(get_stream_url(block))
+    ]
 
     with open("vtv.m3u", "w", encoding="utf-8", newline="") as f:
-        f.writelines(header_to_write)
+        f.writelines(header)
 
-        for block in filtered_m3u8:
+        for block in m3u8_only:
             f.writelines(block)
-
-    # =====================================================
-    # playlist.m3u
-    # TẤT CẢ STREAM
-    # =====================================================
-
-    playlist_channels = base_filtered_channels.copy()
-    playlist_channels.sort(key=get_priority)
 
     with open("playlist.m3u", "w", encoding="utf-8", newline="") as f:
-        f.writelines(header_to_write)
+        f.writelines(header)
 
-        for block in playlist_channels:
+        for block in selected:
             f.writelines(block)
 
-    print()
-    print(f"VTV đã chọn          : {vtv_count}")
-    print(f"Nhóm khác đã chọn    : {other_count}")
-    print(f"vtv.m3u (.m3u8)      : {len(filtered_m3u8)} kênh")
-    print(f"playlist.m3u (tất cả): {len(playlist_channels)} kênh")
-    print("Hoàn tất. URL nguồn không được ghi vào log.")
+    print(f"Playlist nguồn : {len(channels)} kênh")
+    print(f"Đã chọn        : {len(selected)} kênh")
+    print(f"vtv.m3u        : {len(m3u8_only)} kênh .m3u8")
+    print("Hoàn tất.")
 
 
 if __name__ == "__main__":
-    download_and_sort_playlist()
+    main()
