@@ -1,4 +1,4 @@
-name: Auto Fetch and Sort M3U
+name: Auto Update Playlist With Logos
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-playlist:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,23 +21,23 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Check required secret
+      - name: Check playlist secret
         shell: bash
         env:
-          SOURCE_URL: ${{ secrets.SOURCE_URL }}
+          SOURCE_PLAYLIST_URL: ${{ secrets.SOURCE_PLAYLIST_URL }}
         run: |
-          if [ -z "$SOURCE_URL" ]; then
-            echo "::error::Thiếu GitHub Secret SOURCE_URL. Vào Settings > Secrets and variables > Actions để tạo."
+          if [ -z "$SOURCE_PLAYLIST_URL" ]; then
+            echo "::error::Thiếu secret SOURCE_PLAYLIST_URL"
             exit 1
           fi
-          echo "Secret SOURCE_URL: OK"
+          echo "Secret playlist: OK"
 
-      - name: Download and sort playlist
+      - name: Update playlist and logos
         env:
-          SOURCE_URL: ${{ secrets.SOURCE_URL }}
+          SOURCE_PLAYLIST_URL: ${{ secrets.SOURCE_PLAYLIST_URL }}
         run: python sort_m3u.py
 
-      - name: Commit and push changes
+      - name: Commit playlist changes
         shell: bash
         run: |
           set -e
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add vtv.m3u playlist.m3u
+          git add playlist.m3u vtv.m3u
 
           if git diff --cached --quiet; then
             echo "Playlist không thay đổi."
