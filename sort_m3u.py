@@ -2,8 +2,8 @@ import urllib.request
 import os
 
 # Khai báo 2 link nguồn
-URL_VTV = 'https:tivixiaomi.vn\iptv\playlist.m3u'
-URL_OTHER = 'https:tivixiaomi.vn\iptv\playlist.m3u'
+URL_VTV = 'https://tivixiaomi.vn/iptv/playlist.m3u'
+URL_OTHER = 'https://tivixiaomi.vn/iptv/playlist.m3u'
 
 # Hàm phụ: Tải dữ liệu từ URL
 def get_content(url):
