@@ -2,8 +2,7 @@ name: Auto Fetch and Sort M3U
 
 on:
   schedule:
-    # Chạy mỗi 1 tiếng
-    - cron: '0 * * * *'
+    - cron: '0,30 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -20,15 +19,25 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.13'
+
+      - name: Check required secret
+        shell: bash
+        env:
+          SOURCE_URL: ${{ secrets.SOURCE_URL }}
+        run: |
+          if [ -z "$SOURCE_URL" ]; then
+            echo "::error::Thiếu GitHub Secret SOURCE_URL. Vào Settings > Secrets and variables > Actions để tạo."
+            exit 1
+          fi
+          echo "Secret SOURCE_URL: OK"
 
       - name: Download and sort playlist
         env:
-          URL_VTV: ${{ secrets.URL_VTV }}
-          URL_OTHER: ${{ secrets.URL_OTHER }}
+          SOURCE_URL: ${{ secrets.SOURCE_URL }}
         run: python sort_m3u.py
 
-      - name: Commit and push only when playlist changed
+      - name: Commit and push changes
         shell: bash
         run: |
           set -e
