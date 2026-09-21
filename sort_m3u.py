@@ -1,17 +1,42 @@
+import io
 import os
-import urllib.request
+import re
+import tempfile
+import unicodedata
 import urllib.error
-from urllib.parse import urlsplit
+import urllib.parse
+import urllib.request
+import zipfile
+from pathlib import Path
 
-SOURCE_URL = os.environ.get("SOURCE_URL", "").strip()
+SOURCE_PLAYLIST_URL = os.environ.get("SOURCE_PLAYLIST_URL", "").strip()
 
-def get_content(url):
-    print("Đang tải nguồn playlist...")
+# Repo logo công khai của bạn
+LOGO_REPO_OWNER = "mihaiphongvn-hub"
+LOGO_REPO_NAME = "logos"
+LOGO_BRANCH = "master"
 
-    if not url:
-        raise RuntimeError(
-            "Thiếu biến SOURCE_URL. Hãy tạo GitHub Secret SOURCE_URL."
-        )
+LOGO_ZIP_URL = (
+    f"https://codeload.github.com/"
+    f"{LOGO_REPO_OWNER}/{LOGO_REPO_NAME}/zip/refs/heads/{LOGO_BRANCH}"
+)
+
+RAW_LOGO_BASE = (
+    f"https://raw.githubusercontent.com/"
+    f"{LOGO_REPO_OWNER}/{LOGO_REPO_NAME}/{LOGO_BRANCH}/"
+)
+
+IMAGE_EXTS = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg", ".avif"}
+ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
+TVG_LOGO_RE = re.compile(r'\s+tvg-logo="[^"]*"', re.IGNORECASE)
+
+
+def fail(message):
+    raise RuntimeError(message)
+
+
+def download(url, label, timeout=60):
+    print(f"Đang tải {label}...")
 
     try:
         req = urllib.request.Request(
@@ -24,161 +49,344 @@ def get_content(url):
             },
         )
 
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=timeout) as response:
             data = response.read()
 
-        text = data.decode("utf-8", errors="replace")
+        if not data:
+            fail(f"{label} trả dữ liệu rỗng.")
 
-        if not text.strip():
-            raise RuntimeError("Nguồn playlist trả dữ liệu rỗng.")
-
-        if "#EXTM3U" not in text[:1000]:
-            raise RuntimeError("Dữ liệu tải về không phải playlist M3U.")
-
-        print(f"[OK] Đã tải {len(data)} bytes.")
-        return text
+        print(f"[OK] {label}: {len(data)} bytes.")
+        return data
 
     except urllib.error.HTTPError as exc:
-        raise RuntimeError(f"Nguồn trả HTTP {exc.code}.") from None
-
+        fail(f"{label} lỗi HTTP {exc.code}.")
     except urllib.error.URLError:
-        raise RuntimeError("Không kết nối được tới nguồn playlist.") from None
+        fail(f"Không kết nối được tới {label}.")
+
+
+def normalize_name(text):
+    text = urllib.parse.unquote(text or "")
+    text = text.replace("Đ", "D").replace("đ", "d")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = text.lower().replace("&", "and")
+    return re.sub(r"[^a-z0-9]+", "", text)
+
+
+def relaxed_name(text):
+    name = normalize_name(text)
+
+    for suffix in ("fullhd", "fhd", "uhd", "4k", "hd"):
+        if name.endswith(suffix) and len(name) > len(suffix) + 2:
+            return name[:-len(suffix)]
+
+    return name
+
+
+def load_logo_index(zip_bytes):
+    exact = {}
+    relaxed = {}
+    basename = {}
+
+    with zipfile.ZipFile(io.BytesIO(zip_bytes), "r") as zf:
+        for info in zf.infolist():
+            if info.is_dir():
+                continue
+
+            path = Path(info.filename)
+
+            if path.suffix.lower() not in IMAGE_EXTS:
+                continue
+
+            # Bỏ thư mục gốc do GitHub ZIP tạo, ví dụ logos-master/
+            parts = path.parts
+            if len(parts) < 2:
+                continue
+
+            rel = Path(*parts[1:]).as_posix()
+            stem = Path(rel).stem
+            filename = Path(rel).name.lower()
+
+            key = normalize_name(stem)
+            key_relaxed = relaxed_name(stem)
+
+            if key:
+                exact.setdefault(key, rel)
+
+            if key_relaxed:
+                relaxed.setdefault(key_relaxed, rel)
+
+            basename.setdefault(filename, rel)
+
+    if not exact:
+        fail("Không đọc được logo nào từ repo.")
+
+    print(f"[OK] Đã lập chỉ mục {len(exact)} logo.")
+    return exact, relaxed, basename
 
 
 def parse_m3u(content):
     lines = content.splitlines(True)
-    header_lines = []
+
+    header = []
     channels = []
-    current_block = []
-    found_first_channel = False
+    current = []
+    found = False
 
     for line in lines:
         if line.startswith("#EXTINF"):
-            found_first_channel = True
+            found = True
 
-            if current_block:
-                channels.append(current_block)
+            if current:
+                channels.append(current)
 
-            current_block = [line]
+            current = [line]
 
-        elif found_first_channel:
-            current_block.append(line)
+        elif found:
+            current.append(line)
 
         else:
-            header_lines.append(line)
+            header.append(line)
 
-    if current_block:
-        channels.append(current_block)
+    if current:
+        channels.append(current)
 
-    if not header_lines:
-        header_lines = ["#EXTM3U\n"]
+    if not header:
+        header = ["#EXTM3U\n"]
 
-    return header_lines, channels
+    return header, channels
+
+
+def parse_extinf(line):
+    attrs = {k.lower(): v for k, v in ATTR_RE.findall(line)}
+    display = line.split(",", 1)[1].strip() if "," in line else ""
+    return attrs, display
+
+
+def old_logo_basename(url):
+    if not url:
+        return ""
+
+    try:
+        path = urllib.parse.urlsplit(url).path
+        return Path(urllib.parse.unquote(path)).name.lower()
+    except Exception:
+        return ""
+
+
+def choose_logo(line, exact, relaxed, basename):
+    attrs, display = parse_extinf(line)
+
+    # Ưu tiên tên file logo cũ nếu repo mới có đúng basename đó.
+    old_base = old_logo_basename(attrs.get("tvg-logo", ""))
+
+    if old_base and old_base in basename:
+        return basename[old_base]
+
+    candidates = [
+        attrs.get("tvg-id", ""),
+        attrs.get("tvg-name", ""),
+        display,
+    ]
+
+    for value in candidates:
+        key = normalize_name(value)
+        if key and key in exact:
+            return exact[key]
+
+    for value in candidates:
+        key = relaxed_name(value)
+        if key and key in relaxed:
+            return relaxed[key]
+
+    return None
+
+
+def make_logo_url(rel):
+    encoded = "/".join(
+        urllib.parse.quote(part)
+        for part in rel.split("/")
+    )
+
+    return RAW_LOGO_BASE + encoded
+
+
+def replace_logo(line, url):
+    newline = "\n" if line.endswith("\n") else ""
+    core = line[:-1] if newline else line
+
+    if TVG_LOGO_RE.search(core):
+        core = TVG_LOGO_RE.sub(
+            f' tvg-logo="{url}"',
+            core,
+            count=1,
+        )
+    else:
+        comma = core.find(",")
+
+        if comma >= 0:
+            core = core[:comma] + f' tvg-logo="{url}"' + core[comma:]
+        else:
+            core += f' tvg-logo="{url}"'
+
+    return core + newline
 
 
 def get_stream_url(block):
     for line in block:
-        line = line.strip()
+        value = line.strip()
 
-        if not line or line.startswith("#"):
+        if not value or value.startswith("#"):
             continue
 
-        if line.lower().startswith(("http://", "https://")):
-            return line
+        if value.lower().startswith(("http://", "https://")):
+            return value
 
     return ""
 
 
-def is_m3u8_url(url):
+def is_m3u8(url):
     if not url:
         return False
 
-    base_url = url.split("|", 1)[0]
+    base = url.split("|", 1)[0]
 
     try:
-        return urlsplit(base_url).path.lower().endswith(".m3u8")
+        return urllib.parse.urlsplit(base).path.lower().endswith(".m3u8")
     except Exception:
-        return ".m3u8" in base_url.lower()
+        return ".m3u8" in base.lower()
 
 
-def get_priority(block):
-    extinf = block[0].upper()
+def priority(block):
+    ext = block[0].upper()
 
-    if 'GROUP-TITLE="VTV"' in extinf:
-        return 0
-    if 'GROUP-TITLE="ĐỊA PHƯƠNG"' in extinf:
-        return 1
-    if 'GROUP-TITLE="HTV"' in extinf:
-        return 2
-    if 'GROUP-TITLE="VTVCAB"' in extinf:
-        return 3
-    if 'GROUP-TITLE="SCTV"' in extinf:
-        return 4
-    if 'GROUP-TITLE="QUỐC TẾ"' in extinf:
-        return 5
-    if 'GROUP-TITLE="IN THE BOX"' in extinf:
-        return 6
-
-    return 99
-
-
-def main():
-    content = get_content(SOURCE_URL)
-    header, channels = parse_m3u(content)
-
-    if not channels:
-        raise RuntimeError("Playlist không có block #EXTINF nào.")
-
-    selected = []
-
-    wanted_others = [
+    groups = (
+        'GROUP-TITLE="VTV"',
         'GROUP-TITLE="ĐỊA PHƯƠNG"',
         'GROUP-TITLE="HTV"',
         'GROUP-TITLE="VTVCAB"',
         'GROUP-TITLE="SCTV"',
         'GROUP-TITLE="QUỐC TẾ"',
         'GROUP-TITLE="IN THE BOX"',
+    )
+
+    for i, group in enumerate(groups):
+        if group in ext:
+            return i
+
+    return 99
+
+
+def wanted_channel(block):
+    if not block:
+        return False
+
+    ext = block[0].upper()
+
+    if 'GROUP-TITLE="VTV"' in ext:
+        return "ĐỘ TRỄ THẤP" not in ext
+
+    wanted = (
+        'GROUP-TITLE="ĐỊA PHƯƠNG"',
+        'GROUP-TITLE="HTV"',
+        'GROUP-TITLE="VTVCAB"',
+        'GROUP-TITLE="SCTV"',
+        'GROUP-TITLE="QUỐC TẾ"',
+        'GROUP-TITLE="IN THE BOX"',
+    )
+
+    return any(group in ext for group in wanted)
+
+
+def write_playlist(path, header, blocks):
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.writelines(header)
+
+        for block in blocks:
+            f.writelines(block)
+
+
+def main():
+    if not SOURCE_PLAYLIST_URL:
+        fail("Thiếu GitHub Secret SOURCE_PLAYLIST_URL.")
+
+    playlist_bytes = download(
+        SOURCE_PLAYLIST_URL,
+        "playlist nguồn",
+        timeout=45,
+    )
+
+    logo_zip = download(
+        LOGO_ZIP_URL,
+        "kho logo GitHub",
+        timeout=90,
+    )
+
+    try:
+        playlist_text = playlist_bytes.decode("utf-8")
+    except UnicodeDecodeError:
+        playlist_text = playlist_bytes.decode("utf-8", errors="replace")
+
+    if "#EXTM3U" not in playlist_text[:1000]:
+        fail("Dữ liệu playlist nguồn không phải M3U.")
+
+    exact, relaxed, basename = load_logo_index(logo_zip)
+
+    header, channels = parse_m3u(playlist_text)
+
+    selected = [
+        block for block in channels
+        if wanted_channel(block)
     ]
 
-    for block in channels:
+    selected.sort(key=priority)
+
+    matched = 0
+    not_matched = []
+
+    for block in selected:
         if not block:
             continue
 
-        extinf = block[0].upper()
+        rel = choose_logo(
+            block[0],
+            exact,
+            relaxed,
+            basename,
+        )
 
-        if 'GROUP-TITLE="VTV"' in extinf:
-            if "ĐỘ TRỄ THẤP" in extinf:
-                continue
-
-            selected.append(block)
-            continue
-
-        if any(group in extinf for group in wanted_others):
-            selected.append(block)
-
-    selected.sort(key=get_priority)
+        if rel:
+            block[0] = replace_logo(
+                block[0],
+                make_logo_url(rel),
+            )
+            matched += 1
+        else:
+            _, display = parse_extinf(block[0])
+            not_matched.append(display)
 
     m3u8_only = [
         block for block in selected
-        if is_m3u8_url(get_stream_url(block))
+        if is_m3u8(get_stream_url(block))
     ]
 
-    with open("vtv.m3u", "w", encoding="utf-8", newline="") as f:
-        f.writelines(header)
+    write_playlist("playlist.m3u", header, selected)
+    write_playlist("vtv.m3u", header, m3u8_only)
 
-        for block in m3u8_only:
-            f.writelines(block)
+    print()
+    print(f"Kênh nguồn          : {len(channels)}")
+    print(f"Kênh đã chọn        : {len(selected)}")
+    print(f"Kênh gắn được logo : {matched}")
+    print(f"Kênh chưa có logo  : {len(not_matched)}")
+    print(f"vtv.m3u             : {len(m3u8_only)}")
 
-    with open("playlist.m3u", "w", encoding="utf-8", newline="") as f:
-        f.writelines(header)
+    if not_matched:
+        print("\nMột số kênh chưa match logo:")
+        for name in not_matched[:30]:
+            print(" -", name)
 
-        for block in selected:
-            f.writelines(block)
-
-    print(f"Playlist nguồn : {len(channels)} kênh")
-    print(f"Đã chọn        : {len(selected)} kênh")
-    print(f"vtv.m3u        : {len(m3u8_only)} kênh .m3u8")
-    print("Hoàn tất.")
+    print()
+    print("Logo sử dụng trực tiếp từ repo mihaiphongvn-hub/logos.")
 
 
 if __name__ == "__main__":
