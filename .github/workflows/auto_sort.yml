@@ -2,19 +2,27 @@ name: Auto Update Playlist With Logos
 
 on:
   schedule:
-    - cron: '0,30 * * * *'
+    # Chạy mỗi 30 phút, lệch khỏi phút 00/30 để giảm khả năng GitHub bị trễ/drop
+    - cron: '15,45 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: auto-update-playlist-with-logos
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -53,4 +61,6 @@ jobs:
           fi
 
           git commit -m "Auto-update playlist"
-          git push
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
