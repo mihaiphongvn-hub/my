@@ -1,11 +1,18 @@
 name: Auto Update Playlist With Logos
 
 on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/auto_sort.yml'
+      - 'sort_m3u.py'
+
   schedule:
-    # 30 phút/lần, tránh phút 00/30 là thời điểm GitHub Actions dễ bị tải cao.
-    - cron: '17,47 * * * *'
-      timezone: 'Asia/Ho_Chi_Minh'
-  workflow_dispatch:
+    # Chạy 30 phút/lần, tránh đầu giờ
+    - cron: '7,37 * * * *'
+
+  workflow_dispatch: {}
 
 permissions:
   contents: write
@@ -17,26 +24,18 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
-      - name: Show run information
-        shell: bash
-        run: |
-          echo "Event: $GITHUB_EVENT_NAME"
-          echo "Branch: $GITHUB_REF_NAME"
-          echo "UTC now: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: master
           fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.11'
 
       - name: Check playlist secret
         shell: bash
@@ -49,49 +48,53 @@ jobs:
           fi
           echo "SOURCE_PLAYLIST_URL: OK"
 
-      - name: Update playlist and logos
+      - name: Run playlist update
         env:
           SOURCE_PLAYLIST_URL: ${{ secrets.SOURCE_PLAYLIST_URL }}
         run: python sort_m3u.py
 
-      - name: Validate generated playlists
-        shell: bash
-        run: |
-          set -e
-
-          for file in playlist.m3u vtv.m3u; do
-            if [ ! -f "$file" ]; then
-              echo "::error::Không tạo được $file"
-              exit 1
-            fi
-
-            if [ ! -s "$file" ]; then
-              echo "::error::$file đang rỗng"
-              exit 1
-            fi
-
-            if ! head -n 1 "$file" | grep -q "^#EXTM3U"; then
-              echo "::error::$file không phải playlist M3U hợp lệ"
-              exit 1
-            fi
-          done
-
-          echo "Hai playlist hợp lệ."
-
-      - name: Force refresh timestamp
+      - name: Validate playlist files
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
-          from datetime import datetime
-          from zoneinfo import ZoneInfo
 
-          stamp = datetime.now(
-              ZoneInfo("Asia/Ho_Chi_Minh")
-          ).strftime("%Y-%m-%d %H:%M:%S GMT+7")
+          for name in ("playlist.m3u", "vtv.m3u"):
+              p = Path(name)
 
-          for filename in ("playlist.m3u", "vtv.m3u"):
-              p = Path(filename)
+              if not p.exists():
+                  raise SystemExit(f"ERROR: {name} không tồn tại")
+
+              data = p.read_text(
+                  encoding="utf-8",
+                  errors="replace"
+              )
+
+              if len(data) < 20:
+                  raise SystemExit(f"ERROR: {name} quá nhỏ")
+
+              if not data.startswith("#EXTM3U"):
+                  raise SystemExit(
+                      f"ERROR: {name} không phải M3U hợp lệ"
+                  )
+
+              print(f"{name}: OK - {len(data):,} ký tự")
+          PY
+
+      - name: Force update timestamp
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          vn = timezone(timedelta(hours=7))
+          stamp = datetime.now(vn).strftime(
+              "%Y-%m-%d %H:%M:%S GMT+7"
+          )
+
+          for name in ("playlist.m3u", "vtv.m3u"):
+              p = Path(name)
 
               lines = p.read_text(
                   encoding="utf-8",
@@ -104,48 +107,41 @@ jobs:
               ]
 
               if lines and lines[0].startswith("#EXTM3U"):
-                  lines.insert(1, f"#AUTO-UPDATED: {stamp}")
+                  lines.insert(
+                      1,
+                      f"#AUTO-UPDATED: {stamp}"
+                  )
               else:
                   lines.insert(0, "#EXTM3U")
-                  lines.insert(1, f"#AUTO-UPDATED: {stamp}")
+                  lines.insert(
+                      1,
+                      f"#AUTO-UPDATED: {stamp}"
+                  )
 
               p.write_text(
                   "\n".join(lines) + "\n",
                   encoding="utf-8"
               )
 
-          print(f"Đã force refresh: {stamp}")
+          print(f"Refresh: {stamp}")
           PY
 
-      - name: Commit and push playlist
+      - name: Commit and push
         shell: bash
         run: |
           set -e
 
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add playlist.m3u vtv.m3u
 
           if git diff --cached --quiet; then
-            echo "::warning::Không phát hiện thay đổi dù đã refresh timestamp."
+            echo "Không có thay đổi, bỏ qua commit."
             exit 0
           fi
 
-          git commit -m "Auto-update playlist"
+          git commit -m "chore: auto update playlist [skip ci]"
 
           git pull --rebase origin master
-
-          for i in 1 2 3; do
-            if git push origin HEAD:master; then
-              echo "Push thành công ở lần $i."
-              exit 0
-            fi
-
-            echo "Push lần $i thất bại, đồng bộ lại rồi thử tiếp..."
-            sleep 5
-            git pull --rebase origin master
-          done
-
-          echo "::error::Push thất bại sau 3 lần."
-          exit 1
+          git push origin HEAD:master
