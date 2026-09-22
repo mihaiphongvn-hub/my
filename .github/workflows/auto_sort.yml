@@ -2,7 +2,7 @@ name: Auto Update Playlist With Logos
 
 on:
   schedule:
-    - cron: '05,35 * * * *'
+    - cron: '15,45 * * * *'
       timezone: 'Asia/Ho_Chi_Minh'
   workflow_dispatch:
 
@@ -45,6 +45,47 @@ jobs:
           SOURCE_PLAYLIST_URL: ${{ secrets.SOURCE_PLAYLIST_URL }}
         run: python sort_m3u.py
 
+      - name: Force refresh timestamp
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from datetime import datetime, timezone, timedelta
+
+          vn = timezone(timedelta(hours=7))
+          stamp = datetime.now(vn).strftime("%Y-%m-%d %H:%M:%S GMT+7")
+
+          for filename in ("playlist.m3u", "vtv.m3u"):
+              p = Path(filename)
+
+              if not p.exists():
+                  raise SystemExit(f"Không tìm thấy {filename}")
+
+              lines = p.read_text(
+                  encoding="utf-8",
+                  errors="replace"
+              ).splitlines()
+
+              # Xóa timestamp cũ nếu có
+              lines = [
+                  line for line in lines
+                  if not line.startswith("#AUTO-UPDATED:")
+              ]
+
+              # Chèn timestamp ngay sau #EXTM3U
+              if lines and lines[0].startswith("#EXTM3U"):
+                  lines.insert(1, f"#AUTO-UPDATED: {stamp}")
+              else:
+                  lines.insert(0, f"#AUTO-UPDATED: {stamp}")
+
+              p.write_text(
+                  "\n".join(lines) + "\n",
+                  encoding="utf-8"
+              )
+
+          print(f"Đã cập nhật timestamp: {stamp}")
+          PY
+
       - name: Commit playlist changes
         shell: bash
         run: |
@@ -55,11 +96,7 @@ jobs:
 
           git add playlist.m3u vtv.m3u
 
-          if git diff --cached --quiet; then
-            echo "Playlist không thay đổi."
-            exit 0
-          fi
-
           git commit -m "Auto-update playlist"
+
           git pull --rebase origin master
           git push origin master
