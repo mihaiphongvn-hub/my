@@ -1,264 +1,259 @@
-#EXTM3U
-#AUTO-UPDATED: 2026-10-06 14:46:10 GMT+7
-#EXTINF:-1 tvg-id="vtv1hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png",VTV1 
+#EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=91fda8c
 
-#EXTINF:-1 tvg-id="vtv2hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv2hd.png",VTV2 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv2hd.png"  tvg-id="vtv2hd" tvg-name="VTV2" group-title="VTV",VTV2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/vtv2-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=f545cd4
 
-#EXTINF:-1 tvg-id="vtv3hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv3hd.png",VTV3 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv3hd.png"  tvg-id="vtv3hd" tvg-name="VTV3" group-title="VTV",VTV3
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=4eb5844
 
-#EXTINF:-1 tvg-id="vtv4hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv4hd.png",VTV4 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv4hd.png"  tvg-id="vtv4hd" tvg-name="VTV4" group-title="VTV",VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=a5c26d0
 
-#EXTINF:-1 tvg-id="vtv5hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hd.png",VTV5 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv5hd.png"  tvg-id="vtv5hd" tvg-name="VTV5" group-title="VTV",VTV5
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=ae8ecf4
 
-#EXTINF:-1 tvg-id="vtv6hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv6hd.png",VTV6 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv6hd.png"  tvg-id="vtv6hd" tvg-name="VTV6" group-title="VTV",VTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/vtv6-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=b70d018
 
-#EXTINF:-1 tvg-id="vtv7hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv7hd.png",VTV7 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv7hd.png"  tvg-id="vtv7hd" tvg-name="VTV7" group-title="VTV",VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=7997b8a
 
-#EXTINF:-1 tvg-id="vtv8hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv8hd.png",VTV8 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv8hd.png"  tvg-id="vtv8hd" tvg-name="VTV8" group-title="VTV",VTV8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv8/live-hls-avc/vtv8-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=561dba2
 
-#EXTINF:-1 tvg-id="vtv9hd" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv9hd.png",VTV9 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv9hd.png"  tvg-id="vtv9hd" tvg-name="VTV9" group-title="VTV",VTV9
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv9/live247-hls-avc/vtv9-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=74d6bd9
 
-#EXTINF:-1 tvg-id="vtv10" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv10.png",VTV10 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv10.png"  tvg-id="vtv10" tvg-name="VTV10" group-title="VTV",VTV10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/vtv10-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=4802025
 
-#EXTINF:-1 tvg-id="vtv5hdtnb" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hdtnb.png",VTV5 Tây Nam Bộ
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv5hdtnb.png" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" group-title="VTV",VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.fptplay53.net/live/media/vtv5tnb/live-hls-avc/vtv5tnb-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=844f585
 
-#EXTINF:-1 tvg-id="vtv5hdtn" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hdtn.png",VTV5 Tây Nguyên
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vtv5hdtn.png" tvg-id="vtv5hdtn" tvg-name="VTV5 Tây Nguyên" group-title="VTV",VTV5 Tây Nguyên
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.fptplay53.net/live/media/vtv5tn/live-hls-avc/vtv5tn-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=f954fd8
 
-#EXTINF:-1 tvg-id="vietnamtoday" group-title="VTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vietnamtoday.png",VietNam Today
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/vietnamtoday.png" tvg-id="vietnamtoday" tvg-name="VietNam Today" group-title="VTV",VietNam Today
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://live.fptplay53.net/fnxhd1/vntoday_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=45a10e5
 
-#EXTINF:-1 tvg-id="antvhd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/antv-hd.png",An Ninh TV
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/antv-hd.png" tvg-id="antv-hd" tvg-name="An Ninh TV" group-title="Địa Phương",An Ninh TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=983c968
 
-#EXTINF:-1 tvg-id="qpvnhd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/qpvn-hd.png",Quốc Phòng Việt Nam
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/qpvn-hd.png" tvg-id="qpvn-hd" tvg-name="Quốc Phòng Việt Nam" group-title="Địa Phương",Quốc Phòng Việt Nam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxhd2/quocphongvnhd_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=dbe430c
 
-#EXTINF:-1 tvg-id="vinhlong1hd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl1hd.png",Vĩnh Long 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thvl1hd.png" tvg-id="thvl1hd" tvg-name="Vĩnh Long 1" group-title="Địa Phương",Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://vips-livecdn.fptplay.net/live/media/vinhlong1/live247-hls-avc/vinhlong1-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+https://vietmitv.id.vn/c.php?k=ddf8023
 
-#EXTINF:-1 tvg-id="vinhlong2hd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl2hd.png",Vĩnh Long 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thvl2hd.png" tvg-id="thvl2hd" tvg-name="Vĩnh Long 2" group-title="Địa Phương",Vĩnh Long 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/live/media/vinhlong2/live247-hls-avc/vinhlong2-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=05d10eb
 
-#EXTINF:-1 tvg-id="vinhlong3hd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl3hd.png",Vĩnh Long 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thvl3hd.png" tvg-id="thvl3hd" tvg-name="Vĩnh Long 3" group-title="Địa Phương",Vĩnh Long 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=a7b34c2
 
-#EXTINF:-1 tvg-id="vinhlong4hd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl4hd.png",Vĩnh Long 4
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thvl4hd.png" tvg-id="thvl4hd" tvg-name="Vĩnh Long 4" group-title="Địa Phương",Vĩnh Long 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/vinhlong4-hd_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=b128250
 
-#EXTINF:-1 tvg-id="vinhlong5hd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl5hd.png",Vĩnh Long 5
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thvl5hd.png" tvg-id="thvl5hd" tvg-name="Vĩnh Long 5" group-title="Địa Phương",Vĩnh Long 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/vinhlong5hd_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=a0e1fce
 
-#EXTINF:-1 tvg-id="tayninh1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/tayninhtv.png",Tây Ninh
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/tayninhtv.png" tvg-id="tayninhtv" tvg-name="Tây Ninh" group-title="Địa Phương",Tây Ninh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://cdn.la34.com.vn/live/2851dc2c9af68834814a89e61db0faee561/playlist.m3u8
+https://vietmitv.id.vn/c.php?k=bc10e1b
 
-#EXTINF:-1 tvg-id="angiang1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/angiang1.png",An Giang 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/angiang1.png" tvg-id="angiang1" tvg-name="An Giang 1" group-title="Địa Phương",An Giang 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/angiang01_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=8d8de0d
 
-#EXTINF:-1 tvg-id="angiang2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/angiang2.png",An Giang 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/angiang2.png" tvg-id="angiang2" tvg-name="An Giang 2" group-title="Địa Phương",An Giang 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/angiang02hd_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=8c4c713
 
-#EXTINF:-1 tvg-id="angiang3" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/angiang3.png",An Giang 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/lamdong1.png" tvg-id="lamdong1" tvg-name="Lâm Đồng" group-title="Địa Phương",Lâm Đồng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/angiang03_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=61fe539
 
-#EXTINF:-1 tvg-id="lamdong1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/lamdong1.png",Lâm Đồng
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/lamdong2.png" tvg-id="lamdong2" tvg-name="Bình Thuận" group-title="Địa Phương",Bình Thuận
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/lamdong_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=6abef38
 
-#EXTINF:-1 tvg-id="lamdong2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/lamdong2.png",Bình Thuận
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/camau.png" tvg-id="camau" tvg-name="Cà Mau" group-title="Địa Phương",Cà Mau
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/lamdong02_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=7da08de
 
-#EXTINF:-1 tvg-id="camau" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/camau.png",Cà Mau
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/cantho1.png" tvg-id="cantho1" tvg-name="Cần Thơ 1" group-title="Địa Phương",Cần Thơ 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/camauhd_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=db5ecd3
 
-#EXTINF:-1 tvg-id="cantho1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho1.png",Cần Thơ 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/cantho2.png" tvg-id="cantho2" tvg-name="Cần Thơ 2" group-title="Địa Phương",Cần Thơ 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/cantho01_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=2670ae8
 
-#EXTINF:-1 tvg-id="cantho2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho2.png",Cần Thơ 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/cantho3.png" tvg-id="cantho3" tvg-name="Cần Thơ 3" group-title="Địa Phương",Cần Thơ 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/cantho02_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=6a39fad
 
-#EXTINF:-1 tvg-id="cantho3" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho3.png",Cần Thơ 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dongnai1.png" tvg-id="dongnai1" tvg-name="Đồng Nai 1" group-title="Địa Phương",Đồng Nai 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/cantho03_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=74f65ba
 
-#EXTINF:-1 tvg-id="dongnai1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongnai1.png",Đồng Nai 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dongnai2.webp" tvg-id="dongnai2" tvg-name="Đồng Nai 2" group-title="Địa Phương",Đồng Nai 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/dongnai1_hls.smil/chunklist.m3u8
+https://vietmitv.id.vn/c.php?k=5f912b7
 
-#EXTINF:-1 tvg-id="dongnai2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongnai2.png",Đồng Nai 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dnrtv3.webp" tvg-id="dnrtv3" tvg-name="Đồng Nai 3" group-title="Địa Phương",Đồng Nai 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/dongnai2_hls.smil/chunklist.m3u8
+https://vietmitv.id.vn/c.php?k=9a063dd
 
-#EXTINF:-1 tvg-id="dongnai3" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dnrtv3.png",Đồng Nai 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dongthap.png" tvg-id="dongthap" tvg-name="Đồng Tháp 1" group-title="Địa Phương",Đồng Tháp 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://tv.vietanhtv.top/vieon/vieon.php?id=dong-nai-3
+https://vietmitv.id.vn/c.php?k=ef39d8c
 
-#EXTINF:-1 tvg-id="dongthap1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongthap.png",Đồng Tháp 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dongthap2.png" tvg-id="dongthap2" tvg-name="Đồng Tháp 2" group-title="Địa Phương",Đồng Tháp 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/dongthap01_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=8f9504a
 
-#EXTINF:-1 tvg-id="dongthap2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongthap2.png",Đồng Tháp 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/danang1.png" tvg-id="danang1" tvg-name="Đà Nẵng 1" group-title="Địa Phương",Đà Nẵng 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzhd2/mientaythdt02_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=db1d242
 
-#EXTINF:-1 tvg-id="danang1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/danang1.png",Đà Nẵng 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/danang2.png" tvg-id="danang2" tvg-name="Đà Nẵng 2" group-title="Địa Phương",Đà Nẵng 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/danang1_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=f74e4b2
 
-#EXTINF:-1 tvg-id="danang2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/danang2.png",Đà Nẵng 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/daklak.png" tvg-id="daklak" tvg-name="Đắk Lắk" group-title="Địa Phương",Đắk Lắk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/danang2_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=44808f8
 
-#EXTINF:-1 tvg-id="daklak" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/daklak.png",Đắk Lắk
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/gialai.png" tvg-id="gialai" tvg-name="Gia Lai" group-title="Địa Phương",Gia Lai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/daklak_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=41e1234
 
-#EXTINF:-1 tvg-id="gialai" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/gialai.png",Gia Lai
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/hue.png" tvg-id="hue" tvg-name="Thừa Thiên Huế" group-title="Địa Phương",Thừa Thiên Huế
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/gialai01_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=4f54339
 
-#EXTINF:-1 tvg-id="huehd" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hue.png",Thừa Thiên Huế
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (SMART-TV; LINUX; Tizen 10.0) AppleWebKit/537.36 (KHTML, like Gecko) 130.0.6723.116/10.0 TV Safari/537.36
-https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="khanhhoa" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/khanhhoa.png",Khánh Hòa
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/khanhhoa.png" tvg-id="khanhhoa" tvg-name="Khánh Hòa" group-title="Địa Phương",Khánh Hòa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/khanhhoa_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=a1471ee
 
-#EXTINF:-1 tvg-id="khanhhoa1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/khanhhoa1.png",Khánh Hòa 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/khanhhoa1.png" tvg-id="khanhhoa1" tvg-name="Khánh Hòa 1" group-title="Địa Phương",Khánh Hòa 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/khanhhoa01_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=6b615f4
 
-#EXTINF:-1 tvg-id="quangngai" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangngai.png",Quảng Ngãi
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/quangngai.png" tvg-id="quangngai" tvg-name="Quảng Ngãi" group-title="Địa Phương",Quảng Ngãi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/quangngai_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=4d647fa
 
-#EXTINF:-1 tvg-id="quangtri" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangtri.png",Quảng Trị
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/quangtri.png" tvg-id="quangtri" tvg-name="Quảng Trị" group-title="Địa Phương",Quảng Trị
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/epzsd1/quangtri_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=2201b53
 
-#EXTINF:-1 tvg-id="hanoi1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hanoi1.png",Hà Nội 1 
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/hanoi1.png" tvg-id="hanoi1" tvg-name="Hà Nội 1" group-title="Địa Phương",Hà Nội 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxhd2/hanoitv1_vhls.smil/chunklist_b5000000.m3u8
+https://vietmitv.id.vn/c.php?k=c8e8055
 
-#EXTINF:-1 tvg-id="hanoi2" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hanoi2.png",Hà Nội 2
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/hanoi2.png" tvg-id="hanoi2" tvg-name="Hà Nội 2" group-title="Địa Phương",Hà Nội 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/live/media/hanoitv2/live-hls-avc/hanoitv2-avc1_4000000=10000-mp4a_131600=20000.m3u8
+https://vietmitv.id.vn/c.php?k=c5bca86
 
-#EXTINF:-1 tvg-id="bacninh" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/bacninh.png",Bắc Ninh
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/bacninh.png" tvg-id="bacninh" tvg-name="Bắc Ninh" group-title="Địa Phương",Bắc Ninh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/bacninh01_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=78e5139
 
-#EXTINF:-1 tvg-id="caobang" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/caobang.png",Cao Bằng
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/caobang.png" tvg-id="caobang" tvg-name="Cao Bằng" group-title="Địa Phương",Cao Bằng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/caobang_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=324942d
 
-#EXTINF:-1 tvg-id="dienbien" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dienbien.png",Điện Biên
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/dienbien.png" tvg-id="dienbien" tvg-name="Điện Biên" group-title="Địa Phương",Điện Biên
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/dienbien_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=d1c588d
 
-#EXTINF:-1 tvg-id="hatinh" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hatinh.png",Hà Tĩnh
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/hatinh.png" tvg-id="hatinh" tvg-name="Hà Tĩnh" group-title="Địa Phương",Hà Tĩnh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/hatinh_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=7c00981
 
-#EXTINF:-1 tvg-id="haiphong" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/haiphong.png",Hải Phòng
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/haiphong.png" tvg-id="haiphong" tvg-name="Hải Phòng" group-title="Địa Phương",Hải Phòng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/haiphong_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=0638cb0
 
-#EXTINF:-1 tvg-id="haiphong3" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/haiphong3.png",Hải Phòng 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/haiphongplus.png" tvg-id="haiphongplus" tvg-name="Hải Phòng 3" group-title="Địa Phương",Hải Phòng 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/haiphongplus_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=1bc562a
 
-#EXTINF:-1 tvg-id="hungyen" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hungyen.png",Hưng Yên
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/hungyen.png" tvg-id="hungyen" tvg-name="Hưng Yên" group-title="Địa Phương",Hưng Yên
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/hungyen_2000.stream/chunklist.m3u8
+https://vietmitv.id.vn/c.php?k=9858cf6
 
-#EXTINF:-1 tvg-id="laichau" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/laichau.png",Lai Châu
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/laichau.png" tvg-id="laichau" tvg-name="Lai Châu" group-title="Địa Phương",Lai Châu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/laichau_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=0c2e443
 
-#EXTINF:-1 tvg-id="langson" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/langson.png",Lạng Sơn
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/langson.png" tvg-id="langson" tvg-name="Lạng Sơn" group-title="Địa Phương",Lạng Sơn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/langson_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=275cbb6
 
-#EXTINF:-1 tvg-id="laocai" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/laocai.png",Lào Cai
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/laocai.png" tvg-id="laocai" tvg-name="Lào Cai" group-title="Địa Phương",Lào Cai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/laocai_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=bf2f8d5
 
-#EXTINF:-1 tvg-id="nghean" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/nghean.png",Nghệ An
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/nghean.png" tvg-id="nghean" tvg-name="Nghệ An" group-title="Địa Phương",Nghệ An
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/nghean_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=1e3801f
 
-#EXTINF:-1 tvg-id="ninhbinh" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ninhbinh.png",Ninh Bình
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/ninhbinh.png" tvg-id="ninhbinh" tvg-name="Ninh Bình" group-title="Địa Phương",Ninh Bình
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/ninhbinh_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=20c1988
 
-#EXTINF:-1 tvg-id="phutho" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/phutho.png",Phú Thọ
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/phutho.png" tvg-id="phutho" tvg-name="Phú Thọ" group-title="Địa Phương",Phú Thọ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/phutho_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=29b9382
 
-#EXTINF:-1 tvg-id="quangninh1" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangninh1.png",Quảng Ninh 1
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/quangninh1.png" tvg-id="quangninh1" tvg-name="Quảng Ninh 1" group-title="Địa Phương",Quảng Ninh 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/quangninh1_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=5e6789d
 
-#EXTINF:-1 tvg-id="quangninh3" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangninh3.png",Quảng Ninh 3
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/quangninh3.png" tvg-id="quangninh3" tvg-name="Quảng Ninh 3" group-title="Địa Phương",Quảng Ninh 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/quangninh3_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=b950f46
 
-#EXTINF:-1 tvg-id="sonla" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sonla.png",Sơn La
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/sonla.png" tvg-id="sonla" tvg-name="Sơn La" group-title="Địa Phương",Sơn La
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/sonla_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=6f5e02d
 
-#EXTINF:-1 tvg-id="thainguyen" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thainguyen.png",Thái Nguyên
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thainguyen.png" tvg-id="thainguyen" tvg-name="Thái Nguyên" group-title="Địa Phương",Thái Nguyên
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/thainguyen_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=d7e11ac
 
-#EXTINF:-1 tvg-id="thanhhoa" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thanhhoa.png",Thanh Hóa
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/thanhhoa.png" tvg-id="thanhhoa" tvg-name="Thanh Hóa" group-title="Địa Phương",Thanh Hóa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/thanhhoa_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=0e336de
 
-#EXTINF:-1 tvg-id="tuyenquang" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/tuyenquang.png",Tuyên Quang
+#EXTINF:-1 tvg-logo="https://vietmitv.id.vn/logos/20261005/tuyenquang.png" tvg-id="tuyenquang" tvg-name="Tuyên Quang" group-title="Địa Phương",Tuyên Quang
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-https://live.fptplay53.net/fnxsd1/tuyenquang_hls.smil/chunklist_b2500000.m3u8
+https://vietmitv.id.vn/c.php?k=7ad021d
 
 #EXTINF:-1 tvg-id="hitv" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hitv.png",HiTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
