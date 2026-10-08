@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-08 20:18:18 GMT+7
+#AUTO-UPDATED: 2026-10-09 02:24:12 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -87,15 +87,10 @@ http://tv.ctvcamau.vn/live/tv/tv.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://live.canthotv.vn/cs2/live.stream/chunklist_w1497265452.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho3.png" tvg-id="cantho3" tvg-name="Cần Thơ 3" group-title="Địa Phương",Cần Thơ 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live.canthotv.vn/cs3/tv/chunklist_w1003748170.m3u8
-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dnrtv3.png" tvg-id="dnrtv3" tvg-name="Đồng Nai 3" group-title="Địa Phương",Đồng Nai 3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://livecdn-vthcm-bp.vieon.vn/19b251daf1cb911d3c7619ffa62aa8ac/1791456340000/livetv/group-05/43ec53af7a809687be1a97622aec2eff/playlist.m3u8?c=a
+https://livecdn-vthcm-bp.vieon.vn/b0ad13c8416ac92be5996af8f6f73ac6/1791561642000/livetv/group-05/43ec53af7a809687be1a97622aec2eff/playlist.m3u8?c=a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongthap.png" tvg-id="dongthap" tvg-name="Đồng Tháp 1" group-title="Địa Phương",Đồng Tháp 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -145,23 +140,11 @@ https://livecdn-vthcm-bp.vieon.vn/a1c7ba512f3169363f2988eb68525675/1791505849000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onviedramas.png" tvg-id="onviedramas" tvg-name="ON Vie Dramas" group-title="VTVcab",ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://livecdn-vthcm-bp.vieon.vn/6f1eadf3e8ac71ee431eb59193fb6c5e/1791456344000/livetv/group-06/9416aa65cec57d5b01ed0e2297e1b4e3/playlist.m3u8?c=a
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv1hd.png" tvg-id="sctv1hd" tvg-name="SCTV1" group-title="SCTV",SCTV1
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/KXA1PVT-Lkpkn46w5ZMdZg/1791384755/asdfasdvgas2vtvsctv/1/masterh264.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv5hd.png" tvg-id="sctv5hd" tvg-name="SCTV5" group-title="SCTV",SCTV5
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/6m6iNvTy0zV3gnWxUHNDLg/1791384755/5m63a995d8vtvsctv/5/index.m3u8
+https://livecdn-vthcm-bp.vieon.vn/4af4c7ffdf6fa54c1341d42ed627205b/1791565255000/livetv/group-06/9416aa65cec57d5b01ed0e2297e1b4e3/playlist.m3u8?c=a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv10hd.png" tvg-id="sctv10hd" tvg-name="SCTV10" group-title="SCTV",SCTV10
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vtvgolive-sctv.vtvdigital.vn/63FJultSQya4L5SadJY9pg/1791434214/asdfasdvgas2vtvsctv/10/masterh264.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv14hd.png" tvg-id="sctv14hd" tvg-name="SCTV14" group-title="SCTV",SCTV14
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/pgjqNfVaDyu0C1-y3RqniQ/1791384760/6GoYKNrTy3vtvsctv/14/masterh264.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv4k.png" tvg-id="sctv4k" tvg-name="SCTV4K" group-title="SCTV",SCTV4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
