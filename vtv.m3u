@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-09 12:57:25 GMT+7
+#AUTO-UPDATED: 2026-10-09 20:06:17 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -147,9 +147,17 @@ https://livecdn-vthcm-bp.vieon.vn/1fee20f52dfbd8ca23f19ad6ded9ab23/1791594024000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://livecdn-vthcm-bp.vieon.vn/4af4c7ffdf6fa54c1341d42ed627205b/1791565255000/livetv/group-06/9416aa65cec57d5b01ed0e2297e1b4e3/playlist.m3u8?c=a
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv1hd.png" tvg-id="sctv1hd" tvg-name="SCTV1" group-title="SCTV",SCTV1
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vtvgolive-sctv.vtvdigital.vn/_lqXAdkmewIaOU2ZSxCA8A/1791540248/asdfasdvgas2vtvsctv/1/masterh264.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv5hd.png" tvg-id="sctv5hd" tvg-name="SCTV5" group-title="SCTV",SCTV5
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vtvgolive-sctv.vtvdigital.vn/eOBKk0uzbg3hsOxMzvFbvg/1791516847/5m63a995d8vtvsctv/5/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv10hd.png" tvg-id="sctv10hd" tvg-name="SCTV10" group-title="SCTV",SCTV10
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vtvgolive-sctv.vtvdigital.vn/039GttsCzrrVawf3b8TC7g/1791545645/asdfasdvgas2vtvsctv/10/masterh264.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv14hd.png" tvg-id="sctv14hd" tvg-name="SCTV14" group-title="SCTV",SCTV14
 #KODIPROP:inputstream.adaptive.manifest_type=hls
