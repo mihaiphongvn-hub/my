@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-14 01:08:20 GMT+7
+#AUTO-UPDATED: 2026-10-14 06:04:47 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -10,12 +10,12 @@ https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/vtv1-avc1_56000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv2hd.png"  tvg-id="vtv2hd" tvg-name="VTV2" group-title="VTV",VTV2
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=vtv2
+https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/vtv2-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv3hd.png"  tvg-id="vtv3hd" tvg-name="VTV3" group-title="VTV",VTV3
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=vtv3
+https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv4hd.png"  tvg-id="vtv4hd" tvg-name="VTV4" group-title="VTV",VTV4
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -70,17 +70,17 @@ https://tivixiaomi.vn/iptv/c.php?k=vietnamtoday
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/antv-hd.png" tvg-id="antv-hd" tvg-name="An Ninh TV" group-title="Địa Phương",An Ninh TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=antv
+https://ec05-pop4-hlc.tv360.vn/bpk-token/tp3cqu62iq4fgcwlnu3zv5rikon7mkct/bpk-tv/378/output/378-audio_208000_eng_iv_2=206000-video_iv_2=3417600.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/qpvn-hd.png" tvg-id="qpvn-hd" tvg-name="Quốc Phòng Việt Nam" group-title="Địa Phương",Quốc Phòng Việt Nam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=qpvn
+https://ec01-pop4-hlc.tv360.vn/bpk-token/vgexituwhnse4efxgevkrcluj2uys5co/bpk-tv/141/output/141-audio_208000_eng_iv_4=206000-video_iv_4=3417600.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl1hd.png" tvg-id="thvl1hd" tvg-name="Vĩnh Long 1" group-title="Địa Phương",Vĩnh Long 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=thvl1
+https://vips-livecdn.fptplay.net/live/media/vinhlong1/live247-hls-avc/vinhlong1-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl2hd.png" tvg-id="thvl2hd" tvg-name="Vĩnh Long 2" group-title="Địa Phương",Vĩnh Long 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -95,22 +95,22 @@ https://vips-livecdn.fptplay.net/live/media/vinhlong3/live247-hls-avc/vinhlong3-
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl4hd.png" tvg-id="thvl4hd" tvg-name="Vĩnh Long 4" group-title="Địa Phương",Vĩnh Long 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=thvl4
+https://ec04-pop4-hlc.tv360.vn/bpk-token/kzivm7va4bdh5rtmcmnfoukwpzlfcvt6/bpk-tv/251/output/251-audio_198800_eng_iv_3=196800-video_iv_3=3417600.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/thvl5hd.png" tvg-id="thvl5hd" tvg-name="Vĩnh Long 5" group-title="Địa Phương",Vĩnh Long 5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=thvl5
+https://ec02-pop4-hlc.tv360.vn/bpk-token/w6izyrsoecgemd5p3erlnem4i23zdhcg/bpk-tv/423/output/423-audio_214835_eng_iv_2=214800-video_iv_2=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/tayninhtv.png" tvg-id="tayninhtv" tvg-name="Tây Ninh" group-title="Địa Phương",Tây Ninh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=tayninhtv
+https://ec05-pop4-hlc.tv360.vn/bpk-token/acc7wb76gtvqoun2xzrqdbp3a4ail6yh/bpk-tv/430/output/430-audio_214835_eng_iv_2=214800-video_iv_2=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/angiang1.png" tvg-id="angiang1" tvg-name="An Giang 1" group-title="Địa Phương",An Giang 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=angiang1
+https://ec01-pop4-hlc.tv360.vn/bpk-token/rsezasskhcaeuzvu2uxi3cmqjkgiteck/bpk-tv/424/output/424-audio_214835_eng_iv_1=214800-video_iv_1=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/angiang2.png" tvg-id="angiang2" tvg-name="An Giang 2" group-title="Địa Phương",An Giang 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -120,12 +120,12 @@ https://tivixiaomi.vn/iptv/c.php?k=angiang2
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/lamdong1.png" tvg-id="lamdong1" tvg-name="Lâm Đồng" group-title="Địa Phương",Lâm Đồng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=lamdong1
+https://ec01-pop4-hlc.tv360.vn/bpk-token/4yiwquhqun4fbxzpfu2ooelikdtbc2cq/bpk-tv/375/output/375-audio_214834_eng_iv_5=214800-video_iv_5=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/lamdong2.png" tvg-id="lamdong2" tvg-name="Bình Thuận" group-title="Địa Phương",Bình Thuận
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=lamdong2
+https://ec04-pop4-hlc.tv360.vn/bpk-token/hojfwtghenfuzgvsbiudves3jq5zew2m/bpk-tv/393/output/393-audio_198800_eng_iv_1=196800-video_iv_1=5256400.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/camau.png" tvg-id="camau" tvg-name="Cà Mau" group-title="Địa Phương",Cà Mau
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -135,7 +135,7 @@ http://tv.ctvcamau.vn/live/tv/tv.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho1.png" tvg-id="cantho1" tvg-name="Cần Thơ 1" group-title="Địa Phương",Cần Thơ 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=cantho1
+https://ec05-pop4-hlc.tv360.vn/bpk-token/3p6m2frkjxorm664trznv7gnc3n7ztiw/bpk-tv/326/output/326-audio_214835_eng_iv_1=214800-video_iv_1=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/cantho2.png" tvg-id="cantho2" tvg-name="Cần Thơ 2" group-title="Địa Phương",Cần Thơ 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -150,7 +150,7 @@ https://live.canthotv.vn/cs3/tv/chunklist_w1003748170.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongnai1.png" tvg-id="dongnai1" tvg-name="Đồng Nai 1" group-title="Địa Phương",Đồng Nai 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=dongnai1
+https://ec05-pop4-hlc.tv360.vn/bpk-token/xzexukzm7bvcwlljfnh36sl2fo7es6rl/bpk-tv/371/output/371-audio_214835_eng_iv_1=214800-video_iv_1=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongnai2.png" tvg-id="dongnai2" tvg-name="Đồng Nai 2" group-title="Địa Phương",Đồng Nai 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -170,22 +170,22 @@ https://618b88f69e53b.streamlock.net/THDT/thdttv/chunklist_w231972584.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dongthap2.png" tvg-id="dongthap2" tvg-name="Đồng Tháp 2" group-title="Địa Phương",Đồng Tháp 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=dongthap2
+https://ec01-pop4-hlc.tv360.vn/bpk-token/mcrmuawxcpnaf4uctntgdiwkajqkfsqc/bpk-tv/363/output/363-audio_214835_eng_iv_5=214800-video_iv_5=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/danang1.png" tvg-id="danang1" tvg-name="Đà Nẵng 1" group-title="Địa Phương",Đà Nẵng 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=danang1
+https://ec04-pop4-hlc.tv360.vn/bpk-token/zj4pw722zhvx7zczvin4w6h3p7fhr637/bpk-tv/436/output/436-audio_214835_und_iv_3=214800-video_iv_3=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/danang2.png" tvg-id="danang2" tvg-name="Đà Nẵng 2" group-title="Địa Phương",Đà Nẵng 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=danang2
+https://ec04-pop4-hlc.tv360.vn/bpk-token/tmrck6ipsm2xs4icoqozuirfpgnsejlz/bpk-tv/377/output/377-audio_198800_eng_iv_3=196800-video_iv_3=5256400.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/daklak.png" tvg-id="daklak" tvg-name="Đắk Lắk" group-title="Địa Phương",Đắk Lắk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=daklak
+https://ec03-pop4-hlc.tv360.vn/bpk-token/ok736t3fbwxu7h475yvxhp57j5zl7p2p/bpk-tv/273/output/273-audio_279600_eng_iv_1=277600-video_iv_1=5256400.m3u8
 
 #EXTINF:-1 tvg-id="gialai" group-title="Địa Phương" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/gialai.png", GTV | TH Gia Lai
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -210,17 +210,17 @@ https://cdnbaokhanhhoa.com/live/90405a889081_std.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangngai.png" tvg-id="quangngai" tvg-name="Quảng Ngãi" group-title="Địa Phương",Quảng Ngãi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=quangngai
+https://ec03-pop4-hlc.tv360.vn/bpk-token/as3ucw5zazivwnmwca7qln2blmcloqk3/bpk-tv/366/output/366-audio_198800_eng_iv_4=196800-video_iv_4=5256400.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/quangtri.png" tvg-id="quangtri" tvg-name="Quảng Trị" group-title="Địa Phương",Quảng Trị
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=quangtri
+https://ec02-pop4-hlc.tv360.vn/bpk-token/5a6uwiyurrnsgui4djd6spklepud2szd/bpk-tv/260/output/260-audio_214835_eng_iv_2=214800-video_iv_2=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hanoi1.png" tvg-id="hanoi1" tvg-name="Hà Nội 1" group-title="Địa Phương",Hà Nội 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=hanoi1
+https://ec02-pop4-hlc.tv360.vn/bpk-token/scctuc3ogqvaxzvennxzdbj2boiikoql/bpk-tv/282/output/282-audio_214835_und_iv_3=214800-video_iv_3=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hanoi2.png" tvg-id="hanoi2" tvg-name="Hà Nội 2" group-title="Địa Phương",Hà Nội 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -240,12 +240,12 @@ https://tivixiaomi.vn/iptv/c.php?k=caobang
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dienbien.png" tvg-id="dienbien" tvg-name="Điện Biên" group-title="Địa Phương",Điện Biên
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=dienbien
+https://ec03-pop4-hlc.tv360.vn/bpk-token/ecmfinr3fjcdngfzavjcdgcugyqjqvbw/bpk-tv/395/output/395-audio_214835_eng_iv_1=214800-video_iv_1=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/hatinh.png" tvg-id="hatinh" tvg-name="Hà Tĩnh" group-title="Địa Phương",Hà Tĩnh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=hatinh
+https://ec03-pop4-hlc.tv360.vn/bpk-token/aakg6rjauz7ulszvhyqqcfdpiuabi32f/bpk-tv/365/output/365-audio_214835_eng_iv_2=214800-video_iv_2=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/haiphong.png" tvg-id="haiphong" tvg-name="Hải Phòng" group-title="Địa Phương",Hải Phòng
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -265,7 +265,7 @@ https://tivixiaomi.vn/iptv/c.php?k=hungyen
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/laichau.png" tvg-id="laichau" tvg-name="Lai Châu" group-title="Địa Phương",Lai Châu
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=laichau
+https://ec05-pop4-hlc.tv360.vn/bpk-token/v6bwi67hgf2hxpfbgup25a3epoxygzd3/bpk-tv/374/output/374-audio_198800_eng_iv_3=196800-video_iv_3=5256400.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/langson.png" tvg-id="langson" tvg-name="Lạng Sơn" group-title="Địa Phương",Lạng Sơn
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -275,12 +275,12 @@ https://stream.langsontv.vn/live/285c78da0c246524c90917842f8de03bd21/chunklist.m
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/laocai.png" tvg-id="laocai" tvg-name="Lào Cai" group-title="Địa Phương",Lào Cai
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=laocai
+https://ec04-pop4-hlc.tv360.vn/bpk-token/hjx5uxgl33ffyfsnrm4dw362lq5g7ws4/bpk-tv/385/output/385-audio_198800_eng_iv_2=196800-video_iv_2=5256400.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/nghean.png" tvg-id="nghean" tvg-name="Nghệ An" group-title="Địa Phương",Nghệ An
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=nghean
+https://ec04-pop4-hlc.tv360.vn/bpk-token/mggxua5nhrvaguvpfntwbdl2anqy26qd/bpk-tv/437/output/437-audio_214835_und_iv_1=214800-video_iv_1=5254000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ninhbinh.png" tvg-id="ninhbinh" tvg-name="Ninh Bình" group-title="Địa Phương",Ninh Bình
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -335,7 +335,7 @@ https://ec02-pop4-hlc.tv360.vn/bpk-token/mhtkmigwk63caob4rrcgbzvgebq6njra/bpk-tv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/htv1.png" tvg-id="htv1" tvg-name="HTV1" group-title="HTV",HTV1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=htv1
+https://ec01-pop4-hlc.tv360.vn/bpk-token/uj6fqwjwzveft2fdaa62g7cylgrhywcz/bpk-tv/441/output/441-audio_214835_und_iv_1=214800-video_iv_1=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/htv2hd.png" tvg-id="htv2hd" tvg-name="HTV2" group-title="HTV",HTV2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -385,7 +385,7 @@ https://tivixiaomi.vn/iptv/c.php?k=htvcdulich
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/htvccanhachd.png" tvg-id="htvccanhachd" tvg-name="HTVC Ca Nhạc" group-title="HTV",HTVC Ca Nhạc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=htvccanhac
+https://ec05-pop4-hlc.tv360.vn/bpk-token/bziwap5u4byd6y5rhbnq6ulah4hfcyb7/bpk-tv/421/output/421-audio_208000_eng_iv_4=206000-video_iv_4=3417600.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/htvcphimhd.png" tvg-id="htvcphimhd" tvg-name="HTVC Phim" group-title="HTV",HTVC Phim
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
@@ -400,7 +400,7 @@ https://ec04-pop4-hlc.tv360.vn/bpk-token/cyon2f7avxgrp5og65zrohg5c4lbzxix/bpk-tv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/htvcphunuhd.png" tvg-id="htvcphunuhd" tvg-name="HTVC Phụ Nữ" group-title="HTV",HTVC Phụ Nữ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=htvcphunu
+https://ec04-pop4-hlc.tv360.vn/bpk-token/ygtfo2src5dwvw3zb4hmbjsxnla2mv3k/bpk-tv/420/output/420-audio_214834_und_iv_5=214800-video_iv_5=3414800.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onviegiaitri.png" tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" group-title="VTVcab",ON Vie Giải Trí
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -425,7 +425,7 @@ https://ec04-pop4-hlc.tv360.vn/bpk-token/aj2aimnyyukdccvpfzkqg5aegebhibbr/bpk-tv
 #EXTINF:-1 tvg-id="ono2tv" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ono2tv.png", On O2TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://tivixiaomi.vn/iptv/c.php?k=ono2tv
+https://ec01-pop4-hlc.tv360.vn/bpk-token/wcxqmhpydulb3stqlz43dlygdwyk6bq5/bpk-tv/218/output/218-audio_198800_eng_iv_2=196800-video_iv_2=3417600.m3u8
 
 #EXTINF:-1 tvg-id="onbibi" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onbibi.png", On BiBi
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -460,7 +460,7 @@ https://ec05-pop4-hlc.tv360.vn/bpk-token/tdzhghyninrr7747if5zt4ttd6mpe4y7/bpk-tv
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onviedramas.png" tvg-id="onviedramas" tvg-name="ON Vie Dramas" group-title="VTVcab",ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://livecdn-vthcm-bp.vieon.vn/661793462661beae45fd0d46ce9897d9/1791916444000/livetv/group-06/9416aa65cec57d5b01ed0e2297e1b4e3/playlist.m3u8?c=a
+https://tivixiaomi.vn/iptv/c.php?k=onviedramas
 
 #EXTINF:-1 tvg-id="onvfamily" type="stream" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onvfamily.png", ON V Family
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -482,7 +482,7 @@ https://ec03-pop4-hlc.tv360.vn/bpk-token/xorlqyzjcouggkwmrid3vivymo52fodd/bpk-tv
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://tivixiaomi.vn/iptv/c.php?k=onsports
 
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onsportsplus.png", ON SPORTS+ 
@@ -490,7 +490,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onsports
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://tivixiaomi.vn/iptv/c.php?k=onsportsplus
 
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onfootball.png", ON FOOTBALL
@@ -498,7 +498,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onsportsplus
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://tivixiaomi.vn/iptv/c.php?k=onfootball
 
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onsportsnews.png", ON SPORTS NEWS 
@@ -506,7 +506,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onfootball
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=a65645b1aa521305f07c577dc6a4c622
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=b0f4c56930348f4cd85e69aabcc8ca86
 https://tivixiaomi.vn/iptv/c.php?k=onsportsnews
 
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ongolf.png", ON GOLF 
@@ -516,7 +516,7 @@ https://ec02-pop4-hlc.tv360.vn/bpk-token/zgbouow7gd5duyfj3rpmraxkhleyf2r2/bpk-tv
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv1hd.png" tvg-id="sctv1hd" tvg-name="SCTV1" group-title="SCTV",SCTV1
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/Z7SsM99fhMgLtxgbrF3V5A/1791848048/asdfasdvgas2vtvsctv/1/masterh264.m3u8
+https://tivixiaomi.vn/iptv/c.php?k=sctv1
 
 #EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv2hd.png", SCTV2 HD - TODAY TV
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -528,14 +528,14 @@ https://vietmitv.id.vn/tv/tv360.php?id=201&expires=1791989104&token=30ab920e1ca8
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv3
-https://liveatmvng.vtvprime.vn/live/data8/SCTV3/Live_DASHDRM/SCTV3.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv3
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv4hd.png" tvg-id="sctv4hd" tvg-name="SCTV4" group-title="SCTV",SCTV4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv4
-https://liveatmvng.vtvprime.vn/live/data8/SCTV4/Live_DASHDRM/SCTV4.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv4
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv5hd.png" tvg-id="sctv5hd" tvg-name="SCTV5" group-title="SCTV",SCTV5
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -551,21 +551,21 @@ https://ec04-pop4-hlc.tv360.vn/bpk-token/zknludo4fcva2yvrrru4xgv2bxfjvoqn/bpk-tv
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv7
-https://liveatmvng.vtvprime.vn/live/data8/SCTV7/Live_DASHDRM/SCTV7.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv7
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv8hd.png" tvg-id="sctv8hd" tvg-name="SCTV8" group-title="SCTV",SCTV8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv8
-https://liveatmvng.vtvprime.vn/live/data8/SCTV8/Live_DASHDRM/SCTV8.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv9hd.png" tvg-id="sctv9" tvg-name="SCTV9" group-title="SCTV",SCTV9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv9
-https://livevlisctcdnw.seenow.vn/mean/SCTV9/manifest.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv9
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv10hd.png" tvg-id="sctv10hd" tvg-name="SCTV10" group-title="SCTV",SCTV10
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -576,21 +576,21 @@ https://vtvgolive-sctv.vtvdigital.vn/LgPPPtU_C_aBckEaRKdefg/1791894848/asdfasdvg
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv11
-https://liveatmvng.vtvprime.vn/live/data8/SCTV11/Live_DASHDRM/SCTV11.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv11
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv12hd.png" tvg-id="sctv12hd" tvg-name="SCTV12" group-title="SCTV",SCTV12
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv12
-https://liveatmvng.vtvprime.vn/live/data8/SCTV12/Live_DASHDRM/SCTV12.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv12
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv13hd.png" tvg-id="sctv13hd" tvg-name="SCTV13" group-title="SCTV",SCTV13
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv13
-https://liveatmvng.vtvprime.vn/live/data8/SCTV13/Live_DASHDRM/SCTV13.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv13
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv14hd.png" tvg-id="sctv14hd" tvg-name="SCTV14" group-title="SCTV",SCTV14
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -601,56 +601,56 @@ https://vtvgolive-sctv.vtvdigital.vn/u6tZ3Ym8vo7yOBRQtCXcxA/1791869646/6GoYKNrTy
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv15
-https://liveatmvng.vtvprime.vn/live/data8/SCTV15HD/Live_DASHDRM/SCTV15HD.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv15
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv16hd.png" tvg-id="sctv16hd" tvg-name="SCTV16" group-title="SCTV",SCTV16
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv16
-https://liveatmvng.vtvprime.vn/live/data8/SCTV16/Live_DASHDRM/SCTV16.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv16
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv17hd.png" tvg-id="sctv17" tvg-name="SCTV17" group-title="SCTV",SCTV17
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv17
-https://liveatmvng.vtvprime.vn/live/data8/SCTV17/Live_DASHDRM/SCTV17.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv17
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv18hd.png" tvg-id="sctv18hd" tvg-name="SCTV18" group-title="SCTV",SCTV18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv18
-https://liveatmvng.vtvprime.vn/live/data8/SCTV18/Live_DASHDRM/SCTV18.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv18
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv19hd.png" tvg-id="sctv19hd" tvg-name="SCTV19" group-title="SCTV",SCTV19
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv19
-https://liveatmvng.vtvprime.vn/live/data8/SCTV19/Live_DASHDRM/SCTV19.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv19
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv20hd.png" tvg-id="sctv20hd" tvg-name="SCTV20" group-title="SCTV",SCTV20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv20
-https://liveatmvng.vtvprime.vn/live/data8/SCTV20/Live_DASHDRM/SCTV20.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv20
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv21hd.png" tvg-id="sctv21hd" tvg-name="SCTV21 - Việt Nam Ký Ức" group-title="SCTV",SCTV21 - Việt Nam Ký Ức
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv21
-https://liveatmvng.vtvprime.vn/live/data8/SCTV21/Live_DASHDRM/SCTV21.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv21
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv22hd.png" tvg-id="sctv22hd" tvg-name="SCTV22" group-title="SCTV",SCTV22
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://tv.vietanhtv.top/sctv/cleankey.php?id=sctv22
-https://liveatmvng.vtvprime.vn/live/data8/SCTV22/Live_DASHDRM/SCTV22.mpd
+https://tivixiaomi.vn/iptv/c.php?k=sctv22
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctvhdpth.png" tvg-id="sctvhdpth" tvg-name="SCTV Phim Tổng Hợp" group-title="SCTV",SCTV Phim Tổng Hợp
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
