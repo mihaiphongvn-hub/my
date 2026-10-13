@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-13 10:08:58 GMT+7
+#AUTO-UPDATED: 2026-10-13 18:00:27 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -157,7 +157,7 @@ https://vtvgolive-sctv.vtvdigital.vn/7Jak7zvq4dAW6Yl534cNgQ/1791869645/5m63a995d
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv10hd.png" tvg-id="sctv10hd" tvg-name="SCTV10" group-title="SCTV",SCTV10
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/QepMng7oRS7KtpYULkdrOw/1791808449/asdfasdvgas2vtvsctv/10/masterh264.m3u8
+https://vtvgolive-sctv.vtvdigital.vn/LgPPPtU_C_aBckEaRKdefg/1791894848/asdfasdvgas2vtvsctv/10/masterh264.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv14hd.png" tvg-id="sctv14hd" tvg-name="SCTV14" group-title="SCTV",SCTV14
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -167,6 +167,11 @@ https://vtvgolive-sctv.vtvdigital.vn/u6tZ3Ym8vo7yOBRQtCXcxA/1791869646/6GoYKNrTy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vietanhtv.id.vn/sctv/proxy.php/https://e9.endpoint.cdn.sctvonline.vn/cdn-secure/v1/sctvonline/2/stJNrIUQa_PRS_4VI2vQBg/1794447245/PI8HI3T/live/abr_hls/sctv4k/index.m3u8
+
+#EXTINF:-1 tvg-id="tv5monde" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/tv5monde.png", TV5
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
 
 #EXTINF:-1 tvg-id="afnhd" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/afnhd.png", Asia Food Network HD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
