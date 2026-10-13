@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-13 05:34:24 GMT+7
+#AUTO-UPDATED: 2026-10-13 10:08:58 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -140,7 +140,7 @@ https://cdn.sonlatv.vn/live/28595222e707a364251b8724717894baa46/chunklist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onviegiaitri.png" tvg-id="onviegiaitri" tvg-name="ON Vie Giải Trí" group-title="VTVcab",ON Vie Giải Trí
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://livecdn-vthcm-bp.vieon.vn/cb55a0d5a36553ffd5be561ae376df1d/1791855256000/livetv/group-06/e1866a2319433853e08a3ab662932c34/playlist.m3u8?c=a
+https://livecdn-vthcm-bp.vieon.vn/799f645e6f62c11f3a8ac8c2b0e427bb/1791941644000/livetv/group-06/e1866a2319433853e08a3ab662932c34/playlist.m3u8?c=a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onviedramas.png" tvg-id="onviedramas" tvg-name="ON Vie Dramas" group-title="VTVcab",ON Vie Dramas
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -153,7 +153,7 @@ https://vtvgolive-sctv.vtvdigital.vn/Z7SsM99fhMgLtxgbrF3V5A/1791848048/asdfasdvg
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv5hd.png" tvg-id="sctv5hd" tvg-name="SCTV5" group-title="SCTV",SCTV5
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/QLSgm-cyD3Bv8l-JAcvjGA/1791783251/5m63a995d8vtvsctv/5/index.m3u8
+https://vtvgolive-sctv.vtvdigital.vn/7Jak7zvq4dAW6Yl534cNgQ/1791869645/5m63a995d8vtvsctv/5/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv10hd.png" tvg-id="sctv10hd" tvg-name="SCTV10" group-title="SCTV",SCTV10
 #KODIPROP:inputstream.adaptive.manifest_type=hls
@@ -161,12 +161,12 @@ https://vtvgolive-sctv.vtvdigital.vn/QepMng7oRS7KtpYULkdrOw/1791808449/asdfasdvg
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv14hd.png" tvg-id="sctv14hd" tvg-name="SCTV14" group-title="SCTV",SCTV14
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vtvgolive-sctv.vtvdigital.vn/JV68reLcFJ7brC-D4YoA9Q/1791783252/6GoYKNrTy3vtvsctv/14/masterh264.m3u8
+https://vtvgolive-sctv.vtvdigital.vn/u6tZ3Ym8vo7yOBRQtCXcxA/1791869646/6GoYKNrTy3vtvsctv/14/masterh264.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv4k.png" tvg-id="sctv4k" tvg-name="SCTV4K" group-title="SCTV",SCTV4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vietanhtv.id.vn/sctv/proxy.php/https://e9.endpoint.cdn.sctvonline.vn/cdn-secure/v1/sctvonline/2/ost2tVjufyA2c2LPuJkkyg/1794360853/PI8HI3T/live/abr_hls/sctv4k/index.m3u8
+https://vietanhtv.id.vn/sctv/proxy.php/https://e9.endpoint.cdn.sctvonline.vn/cdn-secure/v1/sctvonline/2/stJNrIUQa_PRS_4VI2vQBg/1794447245/PI8HI3T/live/abr_hls/sctv4k/index.m3u8
 
 #EXTINF:-1 tvg-id="afnhd" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/afnhd.png", Asia Food Network HD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
