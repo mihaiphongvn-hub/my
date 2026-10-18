@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-18 20:10:20 GMT+7
+#AUTO-UPDATED: 2026-10-18 23:48:40 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -907,7 +907,7 @@ https://tivixiaomi.vn/iptv/c.php?k=boxhits
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2942ed303e0d40c9b99c94c587bbf509:96cda24109734fb7920d799d58d1a9ae
-https://tivixiaomi.vn/iptv/c.php?k=musicbox
+https://livevlisctcdnw.seenow.vn/livesnv2/MUSICBOX/manifest.mpd
 
 #EXTINF:-1 tvg-id="woman" group-title="In The Box" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/woman.png", Woman
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
