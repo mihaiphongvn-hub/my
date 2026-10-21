@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-21 08:57:27 GMT+7
+#AUTO-UPDATED: 2026-10-21 14:28:16 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -25,7 +25,7 @@ https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_56000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hd.png"  tvg-id="vtv5hd" tvg-name="VTV5" group-title="VTV",VTV5
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://tivixiaomi.vn/iptv/c.php?k=vtv5
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv6hd.png"  tvg-id="vtv6hd" tvg-name="VTV6" group-title="VTV",VTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -35,7 +35,7 @@ https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/vtv6-avc1_56000
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv7hd.png"  tvg-id="vtv7hd" tvg-name="VTV7" group-title="VTV",VTV7
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=vtv7
+https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv8hd.png"  tvg-id="vtv8hd" tvg-name="VTV8" group-title="VTV",VTV8
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -513,7 +513,7 @@ https://tivixiaomi.vn/iptv/c.php?k=ongolf
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://tivixiaomi.vn/iptv/c.php?k=sctv1
 
-#EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv2hd.png", SCTV2 HD - TODAY TV
+#EXTINF:-1 tvg-id="sctv2hd" group-title="SCTV" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/sctv2hd.png", SCTV2
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 https://tivixiaomi.vn/iptv/c.php?k=sctv2
