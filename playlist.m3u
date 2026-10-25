@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-26 00:36:01 GMT+7
+#AUTO-UPDATED: 2026-10-26 02:55:32 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -50,7 +50,7 @@ https://tivixiaomi.vn/iptv/c.php?k=vtv9
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv10.png"  tvg-id="vtv10" tvg-name="VTV10" group-title="VTV",VTV10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://vips-livecdn.fptplay.net/live/media/vtv10/live247-hls-avc/vtv10-avc1_5600000=10000-mp4a_131600=20000.m3u8
+https://tivixiaomi.vn/iptv/c.php?k=vtv10
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hdtnb.png" tvg-id="vtv5hdtnb" tvg-name="VTV5 Tây Nam Bộ" group-title="VTV",VTV5 Tây Nam Bộ
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
@@ -477,7 +477,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onlife
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=d757d5fed1d794e9aef43361dee11fd6
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360173&token=eaa567f7b66b7d20b833d0169792d0ca
 https://tivixiaomi.vn/iptv/c.php?k=onsports
 
 #EXTINF:-1 tvg-id="onsportsplus" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onsportsplus.png", ON SPORTS+ 
@@ -485,7 +485,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onsports
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=d757d5fed1d794e9aef43361dee11fd6
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360183&token=eaa567f7b66b7d20b833d0169792d0ca
 https://tivixiaomi.vn/iptv/c.php?k=onsportsplus
 
 #EXTINF:-1 tvg-id="onfootball" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onfootball.png", ON FOOTBALL
@@ -493,7 +493,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onsportsplus
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=d757d5fed1d794e9aef43361dee11fd6
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360174&token=eaa567f7b66b7d20b833d0169792d0ca
 https://tivixiaomi.vn/iptv/c.php?k=onfootball
 
 #EXTINF:-1 tvg-id="onsportsnews" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/onsportsnews.png", ON SPORTS NEWS 
@@ -501,7 +501,7 @@ https://tivixiaomi.vn/iptv/c.php?k=onfootball
 #KODIPROP:inputstream=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
-#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=d757d5fed1d794e9aef43361dee11fd6
+#KODIPROP:inputstream.adaptive.license_key=https://vietmitv.id.vn/tv/cleankey.php?id=tv360170&token=eaa567f7b66b7d20b833d0169792d0ca
 https://tivixiaomi.vn/iptv/c.php?k=onsportsnews
 
 #EXTINF:-1 tvg-id="ongolf" group-title="VTVcab" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ongolf.png", ON GOLF 
