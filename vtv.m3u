@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-25 06:37:32 GMT+7
+#AUTO-UPDATED: 2026-10-25 11:28:54 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv2hd.png"  tvg-id="vtv2hd" tvg-name="VTV2" group-title="VTV",VTV2
@@ -17,10 +17,20 @@ https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/vtv3-avc1_56000
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/vtv4-avc1_5600000=10000-mp4a_131600=20000.m3u8
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv5hd.png"  tvg-id="vtv5hd" tvg-name="VTV5" group-title="VTV",VTV5
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/vtv5-avc1_5600000=10000-mp4a_131600=20000.m3u8
+
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv6hd.png"  tvg-id="vtv6hd" tvg-name="VTV6" group-title="VTV",VTV6
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://vips-livecdn.fptplay.net/live/media/vtv6/live247-hls-avc/vtv6-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv7hd.png"  tvg-id="vtv7hd" tvg-name="VTV7" group-title="VTV",VTV7
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://vips-livecdn.fptplay.net/live/media/vtv7/live247-hls-avc/vtv7-avc1_5600000=10000-mp4a_140800_vie=20000.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv10.png"  tvg-id="vtv10" tvg-name="VTV10" group-title="VTV",VTV10
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
