@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-10-28 18:33:49 GMT+7
+#AUTO-UPDATED: 2026-10-29 00:19:51 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/vtv1hd.png"  tvg-id="vtv1hd" tvg-name="VTV1" group-title="VTV",VTV1
@@ -280,7 +280,7 @@ https://tivixiaomi.vn/iptv/c.php?k=nghean
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/ninhbinh.png" tvg-id="ninhbinh" tvg-name="Ninh Bình" group-title="Địa Phương",Ninh Bình
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=hls
-https://tivixiaomi.vn/iptv/c.php?k=ninhbinh
+https://live.mediatech.vn/live/28597f8fd7ea5064d0f84ab00b3699dfd86/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/phutho.png" tvg-id="phutho" tvg-name="Phú Thọ" group-title="Địa Phương",Phú Thọ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
@@ -799,7 +799,7 @@ https://tivixiaomi.vn/iptv/c.php?k=nhkworld
 #EXTINF:-1 tvg-id="nhk_premium" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/nhk_premium.png", NHK Premium
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://cdn3.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium-avc1_3000000=6-mp4a_380800_jpn=28.m3u8
+https://tivixiaomi.vn/iptv/c.php?k=nhkpremium
 
 #EXTINF:-1 tvg-id="france24" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/france24.png", France 24
 #KODIPROP:inputstream.adaptive.manifest_type=hls
