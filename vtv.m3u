@@ -1,29 +1,9 @@
 #EXTM3U url-tvg="https://epg.io.vn/epgc.xml"
-#AUTO-UPDATED: 2026-11-14 01:28:30 GMT+7
+#AUTO-UPDATED: 2026-11-14 06:48:41 GMT+7
 #RESOLVER-BASE: https://tivixiaomi.vn/iptv
 #FRIENDLY-CHANNEL-IDS: 1
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/camau.png" tvg-id="camau" tvg-name="Cà Mau" group-title="Địa Phương",Cà Mau
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-http://tv.ctvcamau.vn/live/tv/tv.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/haiphong.png" tvg-id="haiphong" tvg-name="Hải Phòng" group-title="Địa Phương",Hải Phòng
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://live.mediatech.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/chunklist.m3u8
-
-#EXTINF:-1 tvg-id="nhk_premium" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/nhk_premium.png", NHK Premium
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://cdn3.skygo.mn/live/disk1/NHK_World_Premium/HLSv3-FTA/NHK_World_Premium-avc1_3000000=6-mp4a_380800_jpn=28.m3u8
-
 #EXTINF:-1 tvg-id="france24" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/france24.png", France 24
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 #EXTVLCOPT:http-user-agent=Dalvik/2.1.0
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
-
-#EXTINF:-1 tvg-id="dw" group-title="Quốc Tế" tvg-logo="https://raw.githubusercontent.com/mihaiphongvn-hub/logos/master/dw.png", DW - Deutsche Welle
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 
